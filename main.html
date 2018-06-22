@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Recipe Calculator</title>
+        <link rel="stylesheet" type="text/css" href="content.css">
+        <script src="jquery.js"></script>
+        <script type="text/javascript" src="javascript/main.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">Recipe Calculator</div>
+            <div id="content">
+                <div class="selections">
+                    <div class="sub_selection">
+                        <div class="selection_title">Recipe</div>
+                        <div class="clear"></div>
+                        <div class="resources">
+                            <div class="resource">
+                                <div class="resource_label"><img src="assets/gf_manpower.png" title="Manpower"></div>
+                                <div class="resource_input"><input id="manpower" value="30" type="number" min="30" max="999" step="10"></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="resource">
+                                <div class="resource_label"><img src="assets/gf_ammo.png" title="Ammo"></div>
+                                <div class="resource_input"><input id="ammo" value="30" type="number" min="30" max="999" step="10"></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="resource">
+                                <div class="resource_label"><img src="assets/gf_ration.png" title="Ration"></div>
+                                <div class="resource_input"><input id="ration" value="30" type="number" min="30" max="999" step="10"></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="resource">
+                                <div class="resource_label"><img src="assets/gf_part.png" title="Parts"></div>
+                                <div class="resource_input"><input id="part" value="30" type="number" min="30" max="999" step="10"></div>
+                                <div class="clear"></div>
+                            </div>
+                            
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="sub_selection calc_button">
+                        <div class="calculate_box">
+                            <div class="calculate_button">Calculate</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <table class="results_table">
+                    <thead>
+                        <tr>
+                            <th>HG</th>
+                            <th>SMG</th>
+                            <th>AR</th>
+                            <th>RF</th>
+                            <th>MG</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>  
+    </body>
+</html>
