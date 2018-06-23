@@ -80,6 +80,7 @@ function findDolls(mp, am, ra, pa){
 
 		//check HG
 		if(sum <= 920){
+			//recent fix here
 			if(manpower >= 130 && ammo >= 130 && rations >= 130){
 				S2 += "<td><ul>";
 				for(i = 0; i < HG1[0].length; i++){
