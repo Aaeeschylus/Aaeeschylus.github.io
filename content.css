@@ -18,6 +18,14 @@ img {
 
 #container {
 	width: 1000px;
+	float: left;
+	vertical-align: middle;
+}
+
+#side_table {
+	width: 400px;
+	float: left;
+	vertical-align: middle;
 }
 
 #header {
@@ -129,20 +137,31 @@ img {
 
 table {
 	border-collapse: collapse;
-	border-right: 1px solid #000; 
-	border-left: 1px solid #000;
 }
 
 th, td {
 	width: 200px;
 	margin: 0;
-	border-bottom: 1px solid #000;
 	text-align: center;
 	box-sizing: border-box;
+	border-bottom: 1px solid #000;
 	padding: 4px;
 }
 
+table.results_table {
+	border-right: 1px solid #000; 
+	border-left: 1px solid #000;
+}
 
+table.rules_table {
+	border-right: 1px solid #000; 
+	border-bottom: 1px solid #000;
+}
+
+table.rules_table th, table.rules_table td {
+	border-right: 1px solid #000;
+	padding: 2px;
+}
 
 ul {
 	list-style-type: none;
