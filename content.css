@@ -32,13 +32,13 @@ img {
 	font-size: 18px;
 	height: 30px;
 	line-height: 30px;
-	padding: 0px 0px 0px 10px;
 	background-color: rgb(221, 238, 255);
 	border-bottom: 1px solid rgb(51, 102, 153);
 	border-right: 1px solid #000; 
 	border-left: 1px solid #000;
 	color: #06c;
 	text-align: center;
+	font-weight:bold;
 	padding: 0;
 }
 
@@ -163,10 +163,22 @@ table.rules_table th, table.rules_table td {
 	padding: 2px;
 }
 
+table.rules_table th {
+	color:#33a;
+	background-color: #f0f5ff;
+}
+
 ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+}
+
+#table_title {
+	height: 30px;
+	background-color: rgb(221, 238, 255);
+	border-bottom: 1px solid rgb(51, 102, 153);
+	color: #06c;
 }
 
 .S2 {
