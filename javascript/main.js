@@ -103,13 +103,13 @@ $(document).on('click', '#MG2', function(){
 });
 
 
-var HG1 = [["M1911 0:20:00", "Nagant Revolver 0:20:00", "P38 0:20:00", "PPK 0:22:00", "FNP-9 0:25:00", "MP-446 0:25:00", "USP Compact 0:28:00", "Bren Ten 0:28:00"],
-		["P08 0:30:00", "C96 0:30:00", "Type 92 0:35:00", "P99 0:35:00", "M9 0:40:00", "Astra Revolver 0:40:00", "Makarov 0:40:00", "Tokarev 0:45:00"],
+var HG1 = [["M1911 0:20:00", "Nagant Revolver 0:20:00", "P38 0:20:00", "PPK 0:22:00", "FNP-9 0:25:00", "MP-446 0:25:00", "<span class='unreleased'>USP Compact 0:28:00</span>", "<span class='unreleased'>Bren Ten 0:28:00</span>"],
+		["P08 0:30:00", "C96 0:30:00", "Type 92 0:35:00", "<span class='unreleased'>P99 0:35:00</span>", "M9 0:40:00", "Astra Revolver 0:40:00", "Makarov 0:40:00", "Tokarev 0:45:00"],
 		["Colt Revolver 0:50:00", "Mk23 0:50:00", "P7 0:55:00"],
 		["Grizzly MkV 1:10:00"]];
 
-var HG2 = [[ "Spitfire 0:52:00", "Stechkin 0:55:00"],
-		["Welrod MkII 1:00:00", "Contender 1:02:00", "M950A 1:05:00"]];
+var HG2 = [["<span class='unreleased'>Spitfire 0:52:00</span>", "Stechkin 0:55:00"],
+		["Welrod MkII 1:00:00", "<span class='unreleased'>Contender 1:02:00</span>", "M950A 1:05:00"]];
 
 var SMG1 = [["IDW 1:10:00", "PP-2000 1:10:00", "m45 1:20:00", "Spectre M4 1:20:00", "Type 64 1:25:00", "MP40 1:30:00", "Beretta Model 38 1:30:00", "M3 1:30:00", "PPSh-41 1:50:00"],
 	["MAC-10 2:00:00", "Skorpion 2:00:00", "Micro Uzi 2:00:00", "Z-62 2:05:00", "PPS-43 2:10:00"],
@@ -117,16 +117,16 @@ var SMG1 = [["IDW 1:10:00", "PP-2000 1:10:00", "m45 1:20:00", "Spectre M4 1:20:0
 	["Thompson 2:30:00"]];
 
 var SMG2 = [["Sten MkII 1:40:00"],
-	["UMP9 2:15:00", "UMP45 2:15:00", "Shipka 2:18:00", "PP-19-01 2:18:00", "PP-90 2:20:00"],
+	["UMP9 2:15:00", "UMP45 2:15:00", "<span class='unreleased'>Shipka 2:18:00</span>", "<span class='unreleased'>PP-19-01 2:18:00</span>", "<span class='unreleased'>PP-90 2:20:00</span>"],
 	["Suomi 2:25:00", "G36C 2:30:00", "SR-3MP 2:33:00", "Vector 2:35:00", "Type 79 2:35:00"]];
 
 var AR1 = [["Galil 2:40:00", "SIG-510 2:40:00", "F2000 2:45:00", "L85A1 2:50:00", "G3 2:50:00"],
 	["StG44 3:00:00", "OTs-12 3:10:00", "AK-47 3:20:00", "FNC 3:20:00"],
 	["Type 56-1 3:25:00", "FAMAS 3:30:00", "AS Val 3:30:00", "9A-91 3:35:00"],
-	["HK416 3:55:00", "G11 4:04:00"]];
+	["HK416 3:55:00", "<span class='unreleased'>G11 4:04:00</span>"]];
 
-var AR2 = [["TAR-21 3:30:00", "G36 3:40:00", "Ribeyrolles 3:40:00"],
-	["FAL 3:45:00", "T91 3:48:00", "Type 95 3:50:00", "Type 97 3:50:00", "K2 3:52:00", "RFB 3:58:00", "G41 4:05:00", "Zas M21 4:05:00", "AN-94 4:09:00", "AK-12 4:12:00"]];
+var AR2 = [["TAR-21 3:30:00", "G36 3:40:00", "<span class='unreleased'>Ribeyrolles 3:40:00</span>"],
+	["FAL 3:45:00", "<span class='unreleased'>T91 3:48:00</span>", "Type 95 3:50:00", "Type 97 3:50:00", "<span class='unreleased'>K2 3:52:00</span>", "<span class='unreleased'>RFB 3:58:00</spawn>", "G41 4:05:00", "<span class='unreleased'>Zas M21 4:05:00</span>", "<span class='unreleased'>AN-94 4:09:00</span>", "<span class='unreleased'>AK-12 4:12:00</span>"]];
 
 var RF1 = [["G43 3:10:00", "FN-49 3:10:00", "BM59 3:20:00", "Simonov 3:30:00", "SVT-38 3:30:00"],
 	["M14 3:40:00", "SV-98 3:40:00", "M1 Garand 4:00:00"],
@@ -134,16 +134,16 @@ var RF1 = [["G43 3:10:00", "FN-49 3:10:00", "BM59 3:20:00", "Simonov 3:30:00", "
 	["NTW-20 4:45:00", "WA2000 4:50:00"]];
 
 var RF2 = [["Hanyang Type 88 3:50:00"],
-	["T-5000 4:10:00", "SVD 4:15:00"],
-	["Carcano M1891 4:38:00", "Kar98k 4:40:00", "Carcano M91/38 4:42:00", "IWS-2000 4:52:00", "M99 4:55:00", "Lee-Enfield 5:00:00"]];
+	["<span class='unreleased'>T-5000 4:10:00</span>", "SVD 4:15:00"],
+	["<span class='unreleased'>Carcano M1891 4:38:00</span>", "Kar98k 4:40:00", "<span class='unreleased'>Carcano M91/38 4:42:00</span>", "<span class='unreleased'>IWS-2000 4:52:00</span>", "M99 4:55:00", "Lee-Enfield 5:00:00"]];
 
 var MG1 = [["AAT-52 4:50:00", "FG42 4:50:00", "MG34 5:00:00", "DP28 5:00:00", "LWMMG 5:10:00"],
 	["Bren 5:20:00", "M1919A4 5:40:00", "MG42 5:50:00", "M2HB 6:10:00"],
-	["M60 6:10:00", "Mk48 6:20:00", "M1918 6:25:00", "MG3 6:30:00"],
+	["M60 6:10:00", "<span class='unreleased'>Mk48 6:20:00</span>", "M1918 6:25:00", "MG3 6:30:00"],
 	["MG5 6:45:00"]];
 
-var MG2 = [["Ameli 6:25:00", "PK 6:30:00"],
-	["Negev 6:35:00", "MG4 6:40:00", "PKP 6:50:00"]];
+var MG2 = [["<span class='unreleased'>Ameli 6:25:00</span>", "PK 6:30:00"],
+	["Negev 6:35:00", "MG4 6:40:00", "<span class='unreleased'>PKP 6:50:00</span>"]];
 
 
 
@@ -179,7 +179,7 @@ function findDolls(mp, am, ra, pa){
 			if(manpower >= 130 && ammo >= 130 && rations >= 130){
 				S2 += "<td><ul>";
 				for(i = 0; i < HG1[0].length; i++){
-					S2 += ("<li>" + HG1[0][i] + "</li>");
+					S2 += ("<li>" + HG1[0][i] + "</li>");	
 				}
 				S2 += "</ul>";
 
@@ -516,5 +516,15 @@ function findDolls(mp, am, ra, pa){
 		tbody.append(S2, S3, S4, S5);
 
 		table.append(tbody);
+		checkboxClicked();
+	}
+}
+
+function checkboxClicked(){
+	var check = $('#checker');
+	if(check.is(':checked')){
+		$('span.unreleased').hide();
+	}else{
+		$('span.unreleased').show();
 	}
 }

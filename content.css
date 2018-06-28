@@ -123,6 +123,7 @@ img {
 	float:left;
 	margin:5px 0px 0px 0px;
 }
+
 .calculate_button {
 	width:100px;
 	height:30px;
@@ -133,6 +134,24 @@ img {
 	background:#cde;
 	border:1px outset #ace;
 	cursor: pointer;
+}
+
+.check_box {
+	width: 120px;
+	height: 50px;
+	margin: 0;
+	padding-top: 20px;
+}
+
+#checklab {
+	display: block;
+	text-indent: -50px;
+	margin-top: 5px; 
+}
+
+#checker {
+	margin: 0;
+	vertical-align: middle;
 }
 
 table {
@@ -222,4 +241,13 @@ td#maxHG:hover,
 td.max:hover {
 	background-color: rgb(221, 238, 255);
 	cursor: pointer;
+}
+
+#info {
+	padding: 1px;
+	margin: 2px;
+}
+
+.unreleased {
+	color: red;
 }

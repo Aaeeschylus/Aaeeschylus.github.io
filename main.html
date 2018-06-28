@@ -12,6 +12,9 @@
             <div id="header">Recipe Calculator</div>
             <div id="content">
                 <div class="selections">
+                    <div class="sub_selection check_box">
+                        <label id="checklab">Hide Unreleased in EN: <input type="checkbox" id="checker" onclick="checkboxClicked()"></label>
+                    </div>
                     <div class="sub_selection">
                         <div class="selection_title">Recipe</div>
                         <div class="clear"></div>
@@ -46,6 +49,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
             <div id="footer">
                 <table class="results_table">
@@ -75,7 +79,7 @@
                         <th style="width:37.5%">Maximum</th>
                     </tr>
                 </thead>
-                
+
                 <tbody>
                     <tr>
                         <td rowspan="2">HG</td>
@@ -129,6 +133,13 @@
                     </tr>
                 </tbody>
             </table>
+              <div id="info">
+                <ul>
+                    <li>Red text = unreleased in EN.</li>
+                    <li>Created by Aaeeschylus.</li>
+                    <li>Please report any errors or suggestions to Aaeeschylus#6645 on Discord.</li>
+                </ul>
+            </div>
         </div>
         <script>findDolls(30, 30, 30, 30);</script>
     </body>
