@@ -3,7 +3,12 @@ $(document).on('click', '.calculate_button', function(){
 	var ammo = $("#ammo").val();
 	var rations = $("#ration").val();
 	var parts = $("#part").val();
-	findDolls(manpower, ammo, rations, parts);
+	var value = $('input[name=production]:checked').val();
+	if(value == "heavy"){
+		findHeavyDolls(manpower, ammo, rations, parts);
+	}else{
+		findDolls(manpower, ammo, rations, parts);
+	}
 });
 
 $(document).on('click', '.max', function(){
@@ -526,5 +531,41 @@ function checkboxClicked(){
 		$('span.unreleased').hide();
 	}else{
 		$('span.unreleased').show();
+	}
+}
+
+function prodRadioClicked(){
+	var value = $('input[name=production]:checked').val();
+	if(value == "heavy"){
+		$('div.sub_selection.radio_box.radio_tier').css('display', 'inline-block');
+		$('input[name=resourceInput]').attr({"max":9999, "min":1000, "step":100}).val("1000");
+		$('div.standard_button').hide();
+		$('div.heavy_button').show();
+		$('tr#standardRow').hide();
+		$('tr#heavyRow').show();
+		$('table#standard_rules_table').hide();
+		$('table#heavy_rules_table').show();
+		findHeavyDolls(1000, 1000, 1000, 1000);
+	}else{
+		$('div.sub_selection.radio_box.radio_tier').hide();
+		$('input[name=resourceInput]').attr({"max":999, "min":30, "step":10}).val("30");
+		$('div.standard_button').show();
+		$('div.heavy_button').hide();
+		$('tr#standardRow').show();
+		$('tr#heavyRow').hide();
+		$('table#standard_rules_table').show();
+		$('table#heavy_rules_table').hide();
+		findDolls(30, 30, 30, 30);
+	}
+}
+
+function tierRadioClicked() {
+	var value = $('input[name=tier]:checked').val();
+	if(value == "high"){
+		$('tr.S3').hide();
+		$('span.highTierNone').show();
+	}else{
+		$('tr.S3').show();
+		$('span.highTierNone').hide();
 	}
 }

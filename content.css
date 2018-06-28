@@ -16,6 +16,14 @@ img {
 	border: 0;
 }
 
+.regular {
+	display: block;
+}
+
+.heavy {
+	display: none;
+}
+
 #container {
 	width: 1000px;
 	float: left;
@@ -23,7 +31,7 @@ img {
 }
 
 #side_table {
-	width: 400px;
+	width: 500px;
 	float: left;
 	vertical-align: middle;
 }
@@ -42,7 +50,7 @@ img {
 	padding: 0;
 }
 
-#footer {
+.footer {
 	width: 1000px;
 }
 
@@ -66,11 +74,10 @@ img {
 	border-bottom: 1px solid #369;
 	border-right: 1px solid #000; 
 	border-left: 1px solid #000;
-	text-align: center;
 }
 
 .sub_selection {
-	margin: 0px 0px 0px 5px;
+	margin: 0 auto;
 	width: 315px;
 	display: inline-block;
 	vertical-align: middle;
@@ -136,8 +143,12 @@ img {
 	cursor: pointer;
 }
 
+.heavy_button {
+	display: none;
+}
+
 .check_box {
-	width: 120px;
+	width: 170px;
 	height: 50px;
 	margin: 0;
 	padding-top: 20px;
@@ -145,13 +156,31 @@ img {
 
 #checklab {
 	display: block;
-	text-indent: -50px;
 	margin-top: 5px; 
 }
 
 #checker {
 	margin: 0;
 	vertical-align: middle;
+}
+
+.radio_box {
+	height: 50px;
+	margin: 0;
+	text-align: right;
+}
+
+div.radio_prod {
+	width: 170px;
+}
+
+div.radio_tier {
+	width: 120px;
+	display: none;
+}
+
+label.radio_prod {
+	display: block;
 }
 
 table {
@@ -174,17 +203,21 @@ table.results_table {
 	border-left: 1px solid #000;
 }
 
-table.rules_table {
+table#standard_rules_table, table#heavy_rules_table {
 	border-right: 1px solid #000; 
 	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	margin-left: 1px;
 }
 
-table.rules_table th, table.rules_table td {
+table#standard_rules_table th, table#standard_rules_table td,
+table#heavy_rules_table th, table#heavy_rules_table td {
 	border-right: 1px solid #000;
 	padding: 2px;
+	vertical-align: middle;
 }
 
-table.rules_table th {
+table#standard_rules_table th, table#heavy_rules_table th {
 	color:#33a;
 	background-color: #f0f5ff;
 }
@@ -193,6 +226,10 @@ ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+}
+
+#heavyRow {
+	display: none;
 }
 
 #table_title {
@@ -227,18 +264,19 @@ ul {
 }
 
 
-td#HG1:hover,
-td#HG2:hover,
-td#SMG1:hover,
-td#SMG2:hover,
-td#AR1:hover,
-td#AR2:hover,
-td#RF1:hover,
-td#RF2:hover,
-td#MG1:hover,
-td#MG2:hover,
-td#maxHG:hover,
-td.max:hover {
+td#HG1:hover, td#HG2:hover,
+td#SMG1:hover, td#SMG2:hover,
+td#AR1:hover, td#AR2:hover,
+td#RF1:hover, td#RF2:hover,
+td#MG1:hover, td#MG2:hover,
+td#maxHG:hover, td.max:hover,
+
+td#HSG1:hover, td#HSG2:hover,
+td#HSMG1:hover, td#HSMG2:hover,
+td#HAR1:hover, td#HAR2:hover,
+td#HRF1:hover, td#HRF2:hover,
+td#HMG1:hover, td#HMG2:hover, 
+td.Hmax:hover {
 	background-color: rgb(221, 238, 255);
 	cursor: pointer;
 }
