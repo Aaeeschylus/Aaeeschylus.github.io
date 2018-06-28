@@ -150,6 +150,7 @@ var MG2 = [["Ameli 6:25:00", "PK 6:30:00"],
 
 
 
+
 function findDolls(mp, am, ra, pa){
 	var manpower = parseInt(mp);
 	var ammo = parseInt(am);
