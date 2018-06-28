@@ -31,7 +31,7 @@ $(document).on('click', '#HG1', function(){
 });
 
 $(document).on('click', '#HG2', function(){
-	$("#manpower").val("310");
+	$("#manpower").val("130");
 	$("#ammo").val("130");
 	$("#ration").val("130");
 	$("#part").val("30");
