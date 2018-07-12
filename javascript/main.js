@@ -107,7 +107,7 @@ $(document).on('click', '#MG2', function(){
 	findDolls(600, 600, 100, 400);
 });
 
-
+//Recipes
 var HG1 = [["M1911 0:20:00", "Nagant Revolver 0:20:00", "P38 0:20:00", "PPK 0:22:00", "FNP-9 0:25:00", "MP-446 0:25:00", "<span class='unreleased'>USP Compact 0:28:00</span>", "<span class='unreleased'>Bren Ten 0:28:00</span>"],
 		["P08 0:30:00", "C96 0:30:00", "Type 92 0:35:00", "<span class='unreleased'>P99 0:35:00</span>", "M9 0:40:00", "Astra Revolver 0:40:00", "Makarov 0:40:00", "Tokarev 0:45:00"],
 		["Colt Revolver 0:50:00", "Mk23 0:50:00", "P7 0:55:00"],

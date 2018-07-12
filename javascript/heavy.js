@@ -86,7 +86,7 @@ $(document).on('click', '#HSG2', function(){
 	findHeavyDolls(6000, 1000, 6000, 4000);
 });
 
-
+//Recipes
 var HSMG1 = [["F1 1:50:00", "MAC-10 2:00:00", "Skorpion 2:00:00", "Micro Uzi 2:00:00", "Z-62 2:05:00", "PPS-43 2:10:00"],
 	["MP5 2:20:00"],
 	["Thompson 2:30:00"]];
