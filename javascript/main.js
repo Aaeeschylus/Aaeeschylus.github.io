@@ -133,58 +133,68 @@ function findDolls(mp, am, ra, pa){
 		if(sum <= 920){
 			//recent fix here
 			if(manpower >= 130 && ammo >= 130 && rations >= 130){
-				S2 += "<td><ul>";
+				S2 += "<td><ul>"; 
+				S2 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < HG1[0].length; i++){
 					S2 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + HG1[0][i][2] + "' target='_blank'>" +  HG1[0][i][0] + "</a></span><span class='DollTime'>" + HG1[0][i][1] + "</span></li>");	
 				}
 				S2 += "</ul>";
 
-				S3 += "<td><ul>";
+				S3 += "<td><ul>"; 
+				S3 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < HG1[1].length; i++){
 					S3 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + HG1[1][i][2] + "' target='_blank'>" + HG1[1][i][0] + "</a></span><span class='DollTime'>" + HG1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul>"; 
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < HG1[2].length; i++){
 					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + HG1[2][i][2] + "' target='_blank'>" + HG1[2][i][0] + "</a></span><span class='DollTime'>" + HG1[2][i][1] + "</span></li>");
 				}
-				S4 +="<div class='clear'></div>";
+				S4 +="";
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 2</span></li>";
 				for(i = 0; i < HG2[0].length; i++){
 					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + HG2[0][i][2] + "' target='_blank'>" + HG2[0][i][0] + "</a></span><span class='DollTime'>" + HG2[0][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul>"; 
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < HG1[3].length; i++){
 					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + HG1[3][i][2] + "' target='_blank'>" + HG1[3][i][0] + "</a></span><span class='DollTime'>" + HG1[3][i][1] + "</span></li>");
 				}
-				S5 +="<div class='clear'></div>";
+				S5 +="";
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 2</span></li>";
 				for(i = 0; i < HG2[1].length; i++){
 					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + HG2[1][i][2] + "' target='_blank'>" + HG2[1][i][0] + "</a></span><span class='DollTime'>" + HG2[1][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 
 			}else{
-				S2 += "<td><ul>";
+				S2 += "<td><ul>"; 
+				S2 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < HG1[0].length; i++){
 					S2 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + HG1[0][i][2] + "' target='_blank'>" + HG1[0][i][0] + "</a></span><span class='DollTime'>" + HG1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
-				S3 += "<td><ul>";
+				S3 += "<td><ul>"; 
+				S3 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < HG1[1].length; i++){
 					S3 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + HG1[1][i][2] + "' target='_blank'>" + HG1[1][i][0] + "</a></span><span class='DollTime'>" + HG1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul>"; 
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < HG1[2].length; i++){
 					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + HG1[2][i][2] + "' target='_blank'>" + HG1[2][i][0] + "</a></span><span class='DollTime'>" + HG1[2][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul>"; 
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < HG1[3].length; i++){
 					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + HG1[3][i][2] + "' target='_blank'>" + HG1[3][i][0] + "</a></span><span class='DollTime'>" + HG1[3][i][1] + "</span></li>");
 				}
@@ -199,62 +209,73 @@ function findDolls(mp, am, ra, pa){
 
 		//check SMG
 		if(manpower >= 400 && ammo >= 400){
-			S2 += "<td><ul>";
+			S2 += "<td><ul>"; 
+				S2 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 			for(i = 0; i < SMG1[0].length; i++){
 				S2 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + SMG1[0][i][2] + "' target='_blank'>" + SMG1[0][i][0] + "</a></span><span class='DollTime'>" + SMG1[0][i][1] + "</span></li>");
 			}
 			S2 += "</ul>";
 
-			S3 += "<td><ul>";
+			S3 += "<td><ul>"; 
+				S3 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 			for(i = 0; i < SMG1[1].length; i++){
 				S3 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + SMG1[1][i][2] + "' target='_blank'>" + SMG1[1][i][0] + "</a></span><span class='DollTime'>" + SMG1[1][i][1] + "</span></li>");
 			}
-			S3 +="<div class='clear'></div>";
+			S3 +="";
+				S3 += "<li class='setTitle'><span class='setTitle'>Set 2</span></li>";
 			for(i = 0; i < SMG2[0].length; i++){
 				S3 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + SMG2[0][i][2] + "' target='_blank'>" + SMG2[0][i][0] + "</a></span><span class='DollTime'>" + SMG2[0][i][1] + "</span></li>");
 			}
 			S3 += "</ul>";
 
-			S4 += "<td><ul>";
+			S4 += "<td><ul>"; 
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 			for(i = 0; i < SMG1[2].length; i++){
 				S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + SMG1[2][i][2] + "' target='_blank'>" + SMG1[2][i][0] + "</a></span><span class='DollTime'>" + SMG1[2][i][1] + "</span></li>");
 			}
-			S4 +="<div class='clear'></div>";
+			S4 +="";
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 2</span></li>";
 			for(i = 0; i < SMG2[1].length; i++){
 				S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + SMG2[1][i][2] + "' target='_blank'>" + SMG2[1][i][0] + "</a></span><span class='DollTime'>" + SMG2[1][i][1] + "</span></li>");
 			}
 			S4 += "</ul>";
 
-			S5 += "<td><ul>";
+			S5 += "<td><ul>"; 
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 			for(i = 0; i < SMG1[3].length; i++){
 				S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + SMG1[3][i][2] + "' target='_blank'>" + SMG1[3][i][0] + "</a></span><span class='DollTime'>" + SMG1[3][i][1] + "</span></li>");
 			}
-			S5 +="<div class='clear'></div>";
+			S5 +="";
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 2</span></li>";
 			for(i = 0; i < SMG2[2].length; i++){
 				S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + SMG2[2][i][2] + "' target='_blank'>" + SMG2[2][i][0] + "</a></span><span class='DollTime'>" + SMG2[2][i][1] + "</span></li>");
 			}
 			S5 += "</ul>";
 
 		}else{
-			S2 += "<td><ul>";
+			S2 += "<td><ul>"; 
+				S2 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 			for(i = 0; i < SMG1[0].length; i++){
 				S2 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + SMG1[0][i][2] + "' target='_blank'>" + SMG1[0][i][0] + "</a></span><span class='DollTime'>" + SMG1[0][i][1] + "</span></li>");
 			}
 			S2 += "</ul>";
 
-			S3 += "<td><ul>";
+			S3 += "<td><ul>"; 
+				S3 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 			for(i = 0; i < SMG1[1].length; i++){
 				S3 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + SMG1[1][i][2] + "' target='_blank'>" + SMG1[1][i][0] + "</a></span><span class='DollTime'>" + SMG1[1][i][1] + "</span></li>");
 			}
 			S3 += "</ul>";
 
-			S4 += "<td><ul>";
+			S4 += "<td><ul>"; 
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 			for(i = 0; i < SMG1[2].length; i++){
 				S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + SMG1[2][i][2] + "' target='_blank'>" + SMG1[2][i][0] + "</a></span><span class='DollTime'>" + SMG1[2][i][1] + "</span></li>");
 			}
 			S4 += "</ul>";
 
-			S5 += "<td><ul>";
+			S5 += "<td><ul>"; 
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 			for(i = 0; i < SMG1[3].length; i++){
 				S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + SMG1[3][i][2] + "' target='_blank'>" + SMG1[3][i][0] + "</a></span><span class='DollTime'>" + SMG1[3][i][1] + "</span></li>");
 			}
@@ -264,57 +285,67 @@ function findDolls(mp, am, ra, pa){
 		//check AR
 		if(sum >= 800){
 			if(ammo >= 400 & rations >= 400){
-				S2 += "<td><ul>";
+				S2 += "<td><ul>"; 
+				S2 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < AR1[0].length; i++){
 					S2 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + AR1[0][i][2] + "' target='_blank'>" + AR1[0][i][0] + "</a></span><span class='DollTime'>" + AR1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
-				S3 += "<td><ul>";
+				S3 += "<td><ul>"; 
+				S3 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < AR1[1].length; i++){
 					S3 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + AR1[1][i][2] + "' target='_blank'>" + AR1[1][i][0] + "</a></span><span class='DollTime'>" + AR1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul>"; 
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < AR1[2].length; i++){
 					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + AR1[2][i][2] + "' target='_blank'>" + AR1[2][i][0] + "</a></span><span class='DollTime'>" + AR1[2][i][1] + "</span></li>");
 				}
-				S4 +="<div class='clear'></div>";
+				S4 +="";
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 2</span></li>";
 				for(i = 0; i < AR2[0].length; i++){
 					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + AR2[0][i][2] + "' target='_blank'>" + AR2[0][i][0] + "</a></span><span class='DollTime'>" + AR2[0][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul>"; 
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < AR1[3].length; i++){
 					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + AR1[3][i][2] + "' target='_blank'>" + AR1[3][i][0] + "</a></span><span class='DollTime'>" + AR1[3][i][1] + "</span></li>");
 				}
-				S5 +="<div class='clear'></div>";
+				S5 +="";
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 2</span></li>";
 				for(i = 0; i < AR2[1].length; i++){
 					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + AR2[1][i][2] + "' target='_blank'>" + AR2[1][i][0] + "</a></span><span class='DollTime'>" + AR2[1][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 			}else{
-				S2 += "<td><ul>";
+				S2 += "<td><ul>"; 
+				S2 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < AR1[0].length; i++){
 					S2 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + AR1[0][i][2] + "' target='_blank'>" + AR1[0][i][0] + "</a></span><span class='DollTime'>" + AR1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
-				S3 += "<td><ul>";
+				S3 += "<td><ul>"; 
+				S3 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < AR1[1].length; i++){
 					S3 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + AR1[1][i][2] + "' target='_blank'>" + AR1[1][i][0] + "</a></span><span class='DollTime'>" + AR1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul>"; 
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < AR1[2].length; i++){
 					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + AR1[2][i][2] + "' target='_blank'>" + AR1[2][i][0] + "</a></span><span class='DollTime'>" + AR1[2][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul>"; 
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < AR1[3].length; i++){
 					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + AR1[3][i][2] + "' target='_blank'>" + AR1[3][i][0] + "</a></span><span class='DollTime'>" + AR1[3][i][1] + "</span></li>");
 				}
@@ -330,61 +361,72 @@ function findDolls(mp, am, ra, pa){
 		//check RF
 		if(manpower >= 300 && rations >= 300){
 			if(manpower >= 400 && rations >= 400){
-				S2 += "<td><ul>";
+				S2 += "<td><ul>"; 
+				S2 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < RF1[0].length; i++){
 					S2 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + RF1[0][i][2] + "' target='_blank'>" + RF1[0][i][0] + "</a></span><span class='DollTime'>" + RF1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
-				S3 += "<td><ul>";
+				S3 += "<td><ul>"; 
+				S3 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < RF1[1].length; i++){
 					S3 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + RF1[1][i][2] + "' target='_blank'>" + RF1[1][i][0] + "</a></span><span class='DollTime'>" + RF1[1][i][1] + "</span></li>");
 				}
-				S3 +="<div class='clear'></div>";
+				S3 +="";
+				S3 += "<li class='setTitle'><span class='setTitle'>Set 2</span></li>";
 				for(i = 0; i < RF2[0].length; i++){
 					S3 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + RF2[0][i][2] + "' target='_blank'>" + RF2[0][i][0] + "</a></span><span class='DollTime'>" + RF2[0][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul>"; 
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < RF1[2].length; i++){
 					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + RF1[2][i][2] + "' target='_blank'>" + RF1[2][i][0] + "</a></span><span class='DollTime'>" + RF1[2][i][1] + "</span></li>");
 				}
-				S4 +="<div class='clear'></div>";
+				S4 +="";
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 2</span></li>";
 				for(i = 0; i < RF2[1].length; i++){
 					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + RF2[1][i][2] + "' target='_blank'>" + RF2[1][i][0] + "</a></span><span class='DollTime'>" + RF2[1][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul>"; 
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < RF1[3].length; i++){
 					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + RF1[3][i][2] + "' target='_blank'>" + RF1[3][i][0] + "</a></span><span class='DollTime'>" + RF1[3][i][1] + "</span></li>");
 				}
-				S5 +="<div class='clear'></div>";
+				S5 +="";
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 2</span></li>";
 				for(i = 0; i < RF2[2].length; i++){
 					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + RF2[2][i][2] + "' target='_blank'>" + RF2[2][i][0] + "</a></span><span class='DollTime'>" + RF2[2][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 			}else{
-				S2 += "<td><ul>";
+				S2 += "<td><ul>"; 
+				S2 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < RF1[0].length; i++){
 					S2 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + RF1[0][i][2] + "' target='_blank'>" + RF1[0][i][0] + "</a></span><span class='DollTime'>" + RF1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
-				S3 += "<td><ul>";
+				S3 += "<td><ul>"; 
+				S3 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < RF1[1].length; i++){
 					S3 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + RF1[1][i][2] + "' target='_blank'>" + RF1[1][i][0] + "</a></span><span class='DollTime'>" + RF1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul>"; 
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < RF1[2].length; i++){
 					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + RF1[2][i][2] + "' target='_blank'>" + RF1[2][i][0] + "</a></span><span class='DollTime'>" + RF1[2][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul>"; 
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < RF1[3].length; i++){
 					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + RF1[3][i][2] + "' target='_blank'>" + RF1[3][i][0] + "</a></span><span class='DollTime'>" + RF1[3][i][1] + "</span></li>");
 				}
@@ -400,57 +442,67 @@ function findDolls(mp, am, ra, pa){
 		//check MG
 		if(manpower >= 400 && ammo >= 600 && parts >= 300){
 			if(manpower >= 600 && rations >= 100 && parts >= 400){
-				S2 += "<td><ul>";
+				S2 += "<td><ul>"; 
+				S2 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < MG1[0].length; i++){
 					S2 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG1[0][i][2] + "' target='_blank'>" + MG1[0][i][0] + "</a></span><span class='DollTime'>" + MG1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
-				S3 += "<td><ul>";
+				S3 += "<td><ul>"; 
+				S3 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < MG1[1].length; i++){
 					S3 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG1[1][i][2] + "' target='_blank'>" + MG1[1][i][0] + "</a></span><span class='DollTime'>" + MG1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul>"; 
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < MG1[2].length; i++){
 					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG1[2][i][2] + "' target='_blank'>" + MG1[2][i][0] + "</a></span><span class='DollTime'>" + MG1[2][i][1] + "</span></li>");
 				}
-				S4 +="<div class='clear'></div>";
+				S4 +="";
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 2</span></li>";
 				for(i = 0; i < MG2[0].length; i++){
 					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG2[0][i][2] + "' target='_blank'>" + MG2[0][i][0] + "</a></span><span class='DollTime'>" + MG2[0][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul>"; 
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < MG1[3].length; i++){
 					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG1[3][i][2] + "' target='_blank'>" + MG1[3][i][0] + "</a></span><span class='DollTime'>" + MG1[3][i][1] + "</span></li>");
 				}
-				S5 +="<div class='clear'></div>";
+				S5 +="";
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 2</span></li>";
 				for(i = 0; i < MG2[1].length; i++){
 					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG2[1][i][2] + "' target='_blank'>" + MG2[1][i][0] + "</a></span><span class='DollTime'>" + MG2[1][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 			}else{
-				S2 += "<td><ul>";
+				S2 += "<td><ul>"; 
+				S2 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < MG1[0].length; i++){
 					S2 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG1[0][i][2] + "' target='_blank'>" + MG1[0][i][0] + "</a></span><span class='DollTime'>" + MG1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
-				S3 += "<td><ul>";
+				S3 += "<td><ul>"; 
+				S3 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < MG1[1].length; i++){
 					S3 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG1[1][i][2] + "' target='_blank'>" + MG1[1][i][0] + "</a></span><span class='DollTime'>" + MG1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul>"; 
+				S4 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < MG1[2].length; i++){
 					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG1[2][i][2] + "' target='_blank'>" + MG1[2][i][0] + "</a></span><span class='DollTime'>" + MG1[2][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul>"; 
+				S5 += "<li class='setTitle'><span class='setTitle'>Set 1</span></li>";
 				for(i = 0; i < MG1[3].length; i++){
 					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG1[3][i][2] + "' target='_blank'>" + MG1[3][i][0] + "</a></span><span class='DollTime'>" + MG1[3][i][1] + "</span></li>");
 				}
