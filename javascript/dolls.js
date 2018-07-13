@@ -355,7 +355,7 @@ var HSG1 = [
 		 [["<span class='unreleased'>SPAS-12</span>"], ["<span class='unreleased'>7:40:00</span>"], ["SPAS-12"]]],
 
 		//5 Star
-		[[["KSG"], ["8:00:00"]]]];
+		[[["KSG"], ["8:00:00"], ["KSG"]]]];
 
 
 var HSG2 = [
