@@ -287,6 +287,21 @@ span.DollTime {
 	color: black;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #000;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: #000;
+}
 
 td#HG1:hover, td#HG2:hover,
 td#SMG1:hover, td#SMG2:hover,
