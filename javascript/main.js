@@ -414,21 +414,21 @@ function findDolls(mp, am, ra, pa){
 
 				S4 += "<td><ul>";
 				for(i = 0; i < MG1[2].length; i++){
-					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG1[0][i][2] + "' target='_blank'>" + MG1[2][i][0] + "</a></span><span class='DollTime'>" + MG1[2][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG1[1][i][2] + "' target='_blank'>" + MG1[2][i][0] + "</a></span><span class='DollTime'>" + MG1[2][i][1] + "</span></li>");
 				}
 				S4 +="<div class='clear'></div>";
 				for(i = 0; i < MG2[0].length; i++){
-					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG2[0][i][2] + "' target='_blank'>" + MG2[0][i][0] + "</a></span><span class='DollTime'>" + MG2[0][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG2[1][i][2] + "' target='_blank'>" + MG2[0][i][0] + "</a></span><span class='DollTime'>" + MG2[0][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
 				S5 += "<td><ul>";
 				for(i = 0; i < MG1[3].length; i++){
-					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG1[0][i][2] + "' target='_blank'>" + MG1[3][i][0] + "</a></span><span class='DollTime'>" + MG1[3][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG1[2][i][2] + "' target='_blank'>" + MG1[3][i][0] + "</a></span><span class='DollTime'>" + MG1[3][i][1] + "</span></li>");
 				}
 				S5 +="<div class='clear'></div>";
 				for(i = 0; i < MG2[1].length; i++){
-					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG2[1][i][2] + "' target='_blank'>" + MG2[1][i][0] + "</a></span><span class='DollTime'>" + MG2[1][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a href='https://en.gfwiki.com/wiki/" + MG2[2][i][2] + "' target='_blank'>" + MG2[1][i][0] + "</a></span><span class='DollTime'>" + MG2[1][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 			}else{
