@@ -28,12 +28,14 @@ var HG1 = [
 		 [["P7"], ["0:55:00"], ["P7"]]],
 
 		//5 star
-		[[["Grizzly MkV"], ["1:10:00"], ["Grizzly_MkV"]]]];
+		[[["<span class='unreleased'>NZ75</span>"], ["<span class='unreleased'>1:05:00</span>"], ["NZ75"]],
+		 [["Grizzly MkV"], ["1:10:00"], ["Grizzly_MkV"]]]];
 
 
 var HG2 = [
 		//4 star
-		[[["<span class='unreleased'>Spitfire</span>"], ["<span class='unreleased'>0:52:00</span>"], ["Spitfire"]], 
+		[[["<span class='unreleased'>Spitfire</span>"], ["<span class='unreleased'>0:52:00</span>"], ["Spitfire"]],
+		 [["<span class='unreleased'>K5</span>"], ["<span class='unreleased'>0:53:00</span>"], ["K5"]], 
 		 [["Stechkin"], ["0:55:00"], ["Stechkin"]]],
 
 		//5 star
@@ -80,6 +82,7 @@ var SMG2 = [
 
 		 //5 star
 		[[["Suomi"], ["2:25:00"], ["Suomi"]],
+		 [["<span class='unreleased'>C-MS</span>"], ["<span class='unreleased'>2:28:00</span>"], ["C-MS"]],
 		 [["G36C"], ["2:30:00"], ["G36C"]], 
 		 [["SR-3MP"], ["2:33:00"], ["SR-3MP"]], 
 		 [["Vector"], ["2:35:00"], ["Vector"]], 
@@ -102,6 +105,7 @@ var AR1 = [
 
 		//4 star
 		[[["Type 56-1"], ["3:25:00"], ["Type_56-1"]],
+		 [["<span class='unreleased'>XM8</span>"], ["<span class='unreleased'>3:25:00</span>"], ["XM8"]],
 		 [["FAMAS"], ["3:30:00"], ["FAMAS"]], 
 		 [["AS Val"], ["3:30:00"], ["AS_Val"]], 
 		 [["9A-91"], ["3:35:00"], ["9A-91"]]],
@@ -123,6 +127,7 @@ var AR2 = [
 		 [["Type 95"], ["3:50:00"], ["Type_95"]], 
 		 [["Type 97"], ["3:50:00"], ["Type_97"]], 
 		 [["<span class='unreleased'>K2</span>"], ["<span class='unreleased'>3:52:00</span>"], ["K2"]], 
+		 [["<span class='unreleased'>MDR</span>"], ["<span class='unreleased'>3:53:00</span>"], ["MDR"]], 
 		 [["<span class='unreleased'>RFB</span>"], ["<span class='unreleased'>3:58:00</span>"], ["RFB"]], 
 		 [["G41"], ["4:05:00"], ["G41"]], 
 		 [["<span class='unreleased'>Zas M21</span>"], ["<span class='unreleased'>4:05:00</span>"], ["Zas_M21"]], 
@@ -238,6 +243,7 @@ var HSMG2 = [
 
 		 //5 star
 		[[["Suomi"], ["2:25:00"], ["Suomi"]],
+		 [["<span class='unreleased'>C-MS</span>"], ["<span class='unreleased'>2:28:00</span>"], ["C-MS"]],
 		 [["G36C"], ["2:30:00"], ["G36C"]], 
 		 [["SR-3MP"], ["2:33:00"], ["SR-3MP"]], 
 		 [["Vector"], ["2:35:00"], ["Vector"]], 
@@ -253,6 +259,7 @@ var HAR1 = [
 
 		//4 star
 		[[["Type 56-1"], ["3:25:00"], ["Type_56-1"]],
+		 [["<span class='unreleased'>XM8</span>"], ["<span class='unreleased'>3:25:00</span>"], ["XM8"]],
 		 [["FAMAS"], ["3:30:00"], ["FAMAS"]], 
 		 [["AS Val"], ["3:30:00"], ["AS_Val"]], 
 		 [["9A-91"], ["3:35:00"], ["9A-91"]]],
@@ -274,6 +281,7 @@ var HAR2 = [
 		 [["Type 95"], ["3:50:00"], ["Type_95"]], 
 		 [["Type 97"], ["3:50:00"], ["Type_97"]], 
 		 [["<span class='unreleased'>K2</span>"], ["<span class='unreleased'>3:52:00</span>"], ["K2"]], 
+		 [["<span class='unreleased'>MDR</span>"], ["<span class='unreleased'>3:53:00</span>"], ["MDR"]], 
 		 [["<span class='unreleased'>RFB</span>"], ["<span class='unreleased'>3:58:00</span>"], ["RFB"]], 
 		 [["G41"], ["4:05:00"], ["G41"]], 
 		 [["<span class='unreleased'>Zas M21</span>"], ["<span class='unreleased'>4:05:00</span>"], ["Zas_M21"]], 
@@ -364,10 +372,14 @@ var HSG2 = [
 		 [["<span class='unreleased'>M1897</span>"], ["<span class='unreleased'>7:30:00</span>"], ["M1897"]]],
 
 		//4 Star
-		[[["M37"], [" 7:45:00"], ["M37"],],
+		[
+		 [["<span class='unreleased'>M1014 (?)</span>"], ["<span class='unreleased'>7:14:00</span>"], ["M1014"]],
+		 [["M37"], [" 7:45:00"], ["M37"]],
 		 [["Super-Shorty"], ["7:50:00"], ["Super-Shorty"]], 
 		 [["<span class='unreleased'>USAS-12</span>"], ["<span class='unreleased'>7:55:00</span>"], ["USAS-12"]]],
 
 		//5 Star
 		[[["<span class='unreleased'>Saiga-12</span>"], ["<span class='unreleased'>8:05:00</span>"], ["Saiga-12"]],
-		 [["<span class='unreleased'>S.A.T.8</span>"], ["<span class='unreleased'>8:10:00</span>"], ["S.A.T.8"]]]];
+		 [["<span class='unreleased'>FP-6 (?)</span>"], ["<span class='unreleased'>8:06:00</span>"], ["FP-6"]],
+		 [["<span class='unreleased'>S.A.T.8</span>"], ["<span class='unreleased'>8:10:00</span>"], ["S.A.T.8"]],
+		 [["<span class='unreleased'>AA-12 (?)</span>"], ["<span class='unreleased'>8:12:00</span>"], ["AA-12"]]]];
