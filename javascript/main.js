@@ -477,11 +477,18 @@ function findDolls(mp, am, ra, pa){
 }
 
 function checkboxClicked(){
-	var check = $('#checker');
-	if(check.is(':checked')){
+	var unrel = $('#unreleasedChecker');
+	var uncraft = $('#uncraftChecker');
+	if(unrel.is(':checked')){
 		$('span.unreleased').hide();
 	}else{
 		$('span.unreleased').show();
+	}
+
+	if(uncraft.is(':checked')){
+		$('span.uncraftable').hide();
+	}else{
+		$('span.uncraftable').show();
 	}
 }
 

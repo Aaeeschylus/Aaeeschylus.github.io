@@ -19,7 +19,8 @@
                         <label class="radio_prod">Heavy Production: <input type="radio" name="production" value="heavy" onclick="prodRadioClicked()"></label>
                     </div>
                     <div class="sub_selection check_box">
-                        <label id="checklab">Hide Unreleased in EN: <input type="checkbox" id="checker" onclick="checkboxClicked()"></label>
+                        <label id="checklab">Hide Unreleased in EN: <input type="checkbox" id="unreleasedChecker" onclick="checkboxClicked()"></label>
+                        <label id="checklab">Hide Uncraftable in EN: <input type="checkbox" id="uncraftChecker" onclick="checkboxClicked()"></label>
                     </div>
                     <div class="sub_selection">
                         <div class="selection_title">Recipe</div>                        
@@ -218,6 +219,7 @@
             <div id="info">
                 <ul>
                     <li>Red text = unreleased in EN.</li>
+                    <li>Blue text = released in EN however is currently uncraftable (eg. only event reward/drop) and will be craftable in the future.</li>
                     <li>(?) = unsure if correct set.</li>
                     <li>Created by Aaeeschylus.</li>
                     <li>Please report any errors, bugs or suggestions to Aaeeschylus#6645 on Discord.</li>

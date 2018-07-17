@@ -113,7 +113,7 @@ var AR1 = [
 
 		//5 star
 		[[["HK416"], ["3:55:00"], ["HK416"]],
-		 [["<span class='unreleased'>G11</span>"], ["<span class='unreleased'>4:04:00</span>"], ["G11"]]]];
+		 [["G11"], ["4:04:00"], ["G11"]]]];
 
 
 var AR2 = [
@@ -221,7 +221,7 @@ var HSMG1 = [
 		 [["F1"], ["1:50:00"], ["F1"]],
 		 [["MAC-10"], ["2:00:00"], ["MAC-10"]],
 		 [["Skorpion"], ["2:00:00"], ["Skorpion"]], 
-		 [["<span class='unreleased'>Z-62</span>"], ["<span class='unreleased'>2:05:00</span>"], ["Z-62"]], 
+		 [["<span class='uncraftable'>Z-62</span>"], ["<span class='uncraftable'>2:05:00</span>"], ["Z-62"]], 
 		 [["PPS-43"], ["2:10:00"], ["PPS-43"]]],
 
 		//4 star
@@ -267,7 +267,7 @@ var HAR1 = [
 
 		//5 star
 		[[["HK416"], ["3:55:00"], ["HK416"]],
-		 [["<span class='unreleased'>G11</span>"], ["<span class='unreleased'>4:04:00</span>"], ["G11"]]]];
+		 [["G11"], ["4:04:00"], ["G11"]]]];
 
 
 var HAR2 = [
