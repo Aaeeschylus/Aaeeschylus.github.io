@@ -207,7 +207,7 @@ var MG2 = [
 		//5 star
 		[[["Negev"], ["6:35:00"], ["Negev"]],
 		 [["MG4"], ["6:40:00"], ["MG4"]], 
-		 [["<span class='unreleased'>PKP</span>"], ["<span class='unreleased'>6:50:00</span>"], ["PKP"]]]];
+		 [["PKP"], ["6:50:00"], ["PKP"]]]];
 
 
 
@@ -350,7 +350,7 @@ var HMG2 = [
 		//5 star
 		[[["Negev"], ["6:35:00"], ["Negev"]],
 		 [["MG4"], ["6:40:00"], ["MG4"]], 
-		 [["<span class='unreleased'>PKP</span>"], ["<span class='unreleased'>6:50:00</span>"], ["PKP"]]]];
+		 [["PKP"], ["6:50:00"], ["PKP"]]]];
 
 
 var HSG1 = [
