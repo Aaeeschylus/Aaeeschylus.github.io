@@ -117,12 +117,12 @@ var HMG1 = [["Bren 5:20:00", "M1919A4 5:40:00", "MG42 5:50:00", "M2HB 6:10:00"],
 var HMG2 = [["<span class='unreleased'>Mk48 6:20:00</span>", "<span class='unreleased'>AEK-999 6:20:00</span>", "<span class='unreleased'>Ameli 6:25:00</span>", "PK 6:30:00"],
 	["Negev 6:35:00", "MG4 6:40:00", "<span class='unreleased'>PKP 6:50:00</span>"]];
 
-var HSG1 = [["<span class='unreleased'>M500 7:20:00</span>", "<span class='unreleased'>KS-23 7:25:00</span>"],
+var HSG1 = [["M500 7:20:00", "KS-23 7:25:00"],
 	["M590 7:40:00", "<span class='unreleased'>SPAS-12 7:40:00</span>"],
 	["KSG 8:00:00"]];
 
-var HSG2 = [["<span class='unreleased'>NS2000 7:15:00</span>", "<span class='unreleased'>RMB-93 7:30:00</span>", "<span class='unreleased'>M1897 7:30:00</span>"],
-	["M37 7:45:00", "<span class='unreleased'>Super-Shorty 7:50:00</span>", "<span class='unreleased'>USAS-12 7:55:00</span>"],
+var HSG2 = [["<span class='unreleased'>NS2000 7:15:00</span>", "RMB-93 7:30:00", "<span class='unreleased'>M1897 7:30:00</span>"],
+	["M37 7:45:00", "Super-Shorty 7:50:00", "<span class='unreleased'>USAS-12 7:55:00</span>"],
 	["<span class='unreleased'>Saiga-12 8:05:00</span>", "<span class='unreleased'>S.A.T.8 8:10:00</span>"]];
 
 
