@@ -123,7 +123,7 @@ var SMG1 = [["IDW 1:10:00", "PP-2000 1:10:00", "m45 1:20:00", "Spectre M4 1:20:0
 
 var SMG2 = [["Sten MkII 1:40:00"],
 	["UMP9 2:15:00", "UMP45 2:15:00", "<span class='unreleased'>Shipka 2:18:00</span>", "<span class='unreleased'>PP-19-01 2:18:00</span>", "<span class='unreleased'>PP-90 2:20:00</span>"],
-	["Suomi 2:25:00", "G36C 2:30:00", "SR-3MP 2:33:00", "Vector 2:35:00", "Type 79 2:35:00"]];
+	["Suomi 2:25:00", "G36C 2:30:00", "SR-3MP 2:33:00", "Vector 2:35:00", "<span class='unreleased'>Type 79 2:35:00</span>"]];
 
 var AR1 = [["Galil 2:40:00", "SIG-510 2:40:00", "F2000 2:45:00", "L85A1 2:50:00", "G3 2:50:00"],
 	["StG44 3:00:00", "OTs-12 3:10:00", "AK-47 3:20:00", "FNC 3:20:00"],

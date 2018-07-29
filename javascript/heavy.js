@@ -93,7 +93,7 @@ var HSMG1 = [["F1 1:50:00", "MAC-10 2:00:00", "Skorpion 2:00:00", "Micro Uzi 2:0
 
 var HSMG2 = [["Sten MkII 1:40:00"],
 	["UMP9 2:15:00", "UMP45 2:15:00", "<span class='unreleased'>Shipka 2:18:00</span>", "<span class='unreleased'>PP-19-01 2:18:00</span>", "<span class='unreleased'>PP-90 2:20:00</span>"],
-	["Suomi 2:25:00", "G36C 2:30:00", "SR-3MP 2:33:00", "Vector 2:35:00", "Type 79 2:35:00"]];
+	["Suomi 2:25:00", "G36C 2:30:00", "SR-3MP 2:33:00", "Vector 2:35:00", "<span class='unreleased'>Type 79 2:35:00</span>"]];
 
 var HAR1 = [["StG44 3:00:00", "OTs-12 3:10:00", "AK-47 3:20:00", "FNC 3:20:00"],
 	["Type 56-1 3:25:00", "FAMAS 3:30:00", "AS Val 3:30:00", "9A-91 3:35:00"],
