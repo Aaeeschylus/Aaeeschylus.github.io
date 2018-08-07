@@ -254,7 +254,8 @@ var HSMG2 = [
 var HAR1 = [
 		//3 star
 		[[["StG44"], ["3:00:00"], ["StG44"]],
-		 [["OTs-12"], ["3:10:00"], ["OTs-12"]], 
+		 [["OTs-12"], ["3:10:00"], ["OTs-12"]],
+		 [["<span class='uncraftable'>ARX-160</span>"], ["<span class='uncraftable'>3:15:00</span>"], ["ARX-160"]], 
 		 [["AK-47"], ["3:20:00"], ["AK-47"]], 
 		 [["FNC"], ["3:20:00"], ["FNC"]]],
 
@@ -313,6 +314,7 @@ var HRF2 = [
 		//4 star
 		[[["<span class='unreleased'>T-5000</span>"], ["<span class='unreleased'>4:10:00</span>"], ["T-5000"]],
 		 [["SVD"], ["4:15:00"], ["SVD"]],
+		 [["<span class='uncraftable'>PSG-1 (?)</span>"], ["<span class='uncraftable'>4:20:00</span>"], ["PSG-1"]],
 		 [["<span class='unreleased'>PzB 39</span>"], ["<span class='unreleased'>4:30:00</span>"], ["PzB_39"]]],
 
 		//5 star
