@@ -154,7 +154,11 @@ img {
 	padding-top: 0;
 }
 
-#checklab {
+.check_box_jp {
+	width: 245px;
+}
+
+.checklab {
 	display: block;
 	margin-top: 2px; 
 }
@@ -177,6 +181,10 @@ div.radio_prod {
 div.radio_tier {
 	width: 120px;
 	display: none;
+}
+
+div.radio_prod_jp {
+	width: 95px;
 }
 
 label.radio_prod {
@@ -287,21 +295,23 @@ span.DollTime {
 	color: black;
 }
 
-a {
+a.dolls {
 	text-decoration: none;
 }
 
-a:link {
+a.dolls:link {
 	color: #000;
 }
 
-a:visited {
+a.dolls:visited {
 	color: #000;
 }
 
-a:hover {
+a.dolls:hover {
 	color: #000;
 }
+
+
 
 td#HG1:hover, td#HG2:hover,
 td#SMG1:hover, td#SMG2:hover,

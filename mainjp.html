@@ -5,25 +5,25 @@
         <title>Recipe Calculator</title>
         <link rel="stylesheet" type="text/css" href="content.css">
         <script src="jquery.js"></script>
-        <script type="text/javascript" src="javascript/dolls.js"></script>
-        <script type="text/javascript" src="javascript/main.js"></script>
-        <script type="text/javascript" src="javascript/heavy.js"></script>
+        <script type="text/javascript" src="javascript/dollsjp.js"></script>
+        <script type="text/javascript" src="javascript/mainjp.js"></script>
+        <script type="text/javascript" src="javascript/heavyjp.js"></script>
     </head>
     <body>
         <div id="container">
-            <div id="header">Recipe Calculator</div>
+            <div id="header">レシピ計算機</div>
             <div id="content">
                 <div class="selections">
-                    <div class="sub_selection radio_box radio_prod">
-                        <label class="radio_prod">Standard Production: <input type="radio" name="production" value="standard" onclick="prodRadioClicked()" checked></label>
-                        <label class="radio_prod">Heavy Production: <input type="radio" name="production" value="heavy" onclick="prodRadioClicked()"></label>
+                    <div class="sub_selection radio_box radio_prod radio_prod_jp">
+                        <label class="radio_prod">通常建造: <input type="radio" name="production" value="standard" onclick="prodRadioClicked()" checked></label>
+                        <label class="radio_prod">大型建造: <input type="radio" name="production" value="heavy" onclick="prodRadioClicked()"></label>
                     </div>
-                    <div class="sub_selection check_box">
-                        <label class="checklab">Hide Unreleased in EN: <input type="checkbox" id="unreleasedChecker" onclick="checkboxClicked()"></label>
-                        <label class="checklab">Hide Uncraftable in EN: <input type="checkbox" id="uncraftChecker" onclick="checkboxClicked()"></label>
+                    <div class="sub_selection check_box check_box_jp">
+                        <label class="checklab">日本で実装されていない人形を隠す: <input type="checkbox" id="unreleasedChecker" onclick="checkboxClicked()"></label>
+                        <label class="checklab">日本で建造が不可能な人形を隠す: <input type="checkbox" id="uncraftChecker" onclick="checkboxClicked()"></label>
                     </div>
                     <div class="sub_selection">
-                        <div class="selection_title">Recipe</div>                        
+                        <div class="selection_title">レシピ</div>                        
                         <div class="resources">
                             <form novalidate>
                                 <div class="resource">
@@ -51,8 +51,8 @@
                     </div>
                     <div class="sub_selection calc_button">
                         <div class="calculate_box">
-                            <div class="calculate_button standard_button">Calculate</div>
-                            <div class="calculate_button heavy_button">Calculate</div>
+                            <div class="calculate_button standard_button">計算する</div>
+                            <div class="calculate_button heavy_button">計算する</div>
                         </div>
                     </div>
                 </div>
@@ -84,13 +84,13 @@
             <table id="standard_rules_table">
                 <thead>
                     <tr>
-                        <th colspan="4" id="table_title">Recipe Rules</th>
+                        <th colspan="4" id="table_title">レシピの基本</th>
                     </tr>
                     <tr>
-                        <th style="width:15%">Class</th>
-                        <th style="width:10%">Set</th>
-                        <th style="width:37.5%">Minimum</th>
-                        <th style="width:37.5%">Maximum</th>
+                        <th style="width:15%">銃種</th>
+                        <th style="width:10%">セット</th>
+                        <th style="width:37.5%">最小資源</th>
+                        <th style="width:37.5%">最大資源</th>
                     </tr>
                 </thead>
 
@@ -99,7 +99,7 @@
                         <td rowspan="2">HG</td>
                         <td>1</td>
                         <td id="HG1">30 / 30 / 30 / 30</td>
-                        <td rowspan="2" id="maxHG">Sum of 920</td>
+                        <td rowspan="2" id="maxHG">全資源の合計値が920以下</td>
                     </tr>
                     <tr>
                         <td>2</td>
@@ -118,7 +118,7 @@
                     <tr>
                         <td rowspan="2">AR</td>
                         <td>1</td>
-                        <td id="AR1">Sum of 800</td>
+                        <td id="AR1">全資源の合計値が800以下</td>
                         
                     </tr>
                     <tr>
@@ -151,13 +151,13 @@
              <table id="heavy_rules_table">
                 <thead>
                     <tr>
-                        <th colspan="4" id="table_title">Recipe Rules</th>
+                        <th colspan="4" id="table_title">レシピの基本</th>
                     </tr>
                     <tr>
-                        <th style="width:15%">Class</th>
-                        <th style="width:10%">Set</th>
-                        <th style="width:37.5%">Minimum</th>
-                        <th style="width:37.5%">Maximum</th>
+                        <th style="width:15%">銃種</th>
+                        <th style="width:10%">セット</th>
+                        <th style="width:37.5%">最小資源</th>
+                        <th style="width:37.5%">最大資源</th>
                     </tr>
                 </thead>
 
@@ -223,7 +223,7 @@
                     <li>(?) = unsure if correct set.</li>
                     <li>Created by Aaeeschylus.</li>
                     <li>Please report any errors, bugs or suggestions to Aaeeschylus#6645 on Discord.</li>
-                    <li><a href="mainjp.html">JP version</a></li>
+                    <li>NOTE: I will not be playing JP, so I will not be paying attention to anything related to it. If you want me to add anything JP related, message me on Discord with all necessary information and I will add it.</li>
                 </ul>
             </div>
         </div>
