@@ -267,16 +267,16 @@ div.clear {
 }
 
 span.DollName {
-	margin-left: 5%;
+	margin-left: 3%;
 	float: inherit;
-	width: 60%; 
+	width: 70%; 
 	font-weight: bold;
 }
 
 span.DollTime {
 	float: inherit;
 	text-align: right;
-	width: 30%;
+	width: 20%;
 }
 
 .S3 {

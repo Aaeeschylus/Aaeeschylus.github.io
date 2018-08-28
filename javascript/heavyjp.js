@@ -109,7 +109,7 @@ function findHeavyDolls(mp, am, ra, pa){
 
 		//Checking SMG
 		if(manpower >= 4000 && ammo >= 4000){
-			S3 += "<td><ul>";
+			S3 += "<td><ul><span class='unreleased'>";
 			for(i = 0; i < HSMG1[0].length; i++){
 				S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSMG1[0][i][2] + "' target='_blank'>" + HSMG1[0][i][0] + "</a></span><span class='DollTime'>" + HSMG1[0][i][1] + "</span></li>");
 			}
@@ -117,9 +117,9 @@ function findHeavyDolls(mp, am, ra, pa){
 			for(i = 0; i < HSMG2[0].length; i++){
 				S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSMG2[0][i][2] + "' target='_blank'>" + HSMG2[0][i][0] + "</a></span><span class='DollTime'>" + HSMG2[0][i][1] + "</span></li>");
 			}
-			S3 += "</ul>";
+			S3 += "</span></ul>";
 
-			S4 += "<td><ul>";
+			S4 += "<td><ul><span class='unreleased'>";
 			for(i = 0; i < HSMG1[1].length; i++){
 				S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSMG1[1][i][2] + "' target='_blank'>" + HSMG1[1][i][0] + "</a></span><span class='DollTime'>" + HSMG1[1][i][1] + "</span></li>");
 			}
@@ -127,9 +127,9 @@ function findHeavyDolls(mp, am, ra, pa){
 			for(i = 0; i < HSMG2[1].length; i++){
 				S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSMG2[1][i][2] + "' target='_blank'>" + HSMG2[1][i][0] + "</a></span><span class='DollTime'>" + HSMG2[1][i][1] + "</span></li>");
 			}
-			S4 += "</ul>";
+			S4 += "</span></ul>";
 
-			S5 += "<td><ul>";
+			S5 += "<td><ul><span class='unreleased'>";
 			for(i = 0; i < HSMG1[2].length; i++){
 				S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSMG1[2][i][2] + "' target='_blank'>" + HSMG1[2][i][0] + "</a></span><span class='DollTime'>" + HSMG1[2][i][1] + "</span></li>");
 			}
@@ -137,37 +137,37 @@ function findHeavyDolls(mp, am, ra, pa){
 			for(i = 0; i < HSMG2[2].length; i++){
 				S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSMG2[2][i][2] + "' target='_blank'>" + HSMG2[2][i][0] + "</a></span><span class='DollTime'>" + HSMG2[2][i][1] + "</span></li>");
 			}
-			S5 += "</ul>";
+			S5 += "</span></ul>";
 		}else{
-			S3 += "<td><ul>";
+			S3 += "<td><ul><span class='unreleased'>";
 			for(i = 0; i < HSMG1[0].length; i++){
 				S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSMG1[0][i][2] + "' target='_blank'>" + HSMG1[0][i][0] + "</a></span><span class='DollTime'>" + HSMG1[0][i][1] + "</span></li>");
 			}
-			S3 += "</ul>";
+			S3 += "</span></ul>";
 
-			S4 += "<td><ul>";
+			S4 += "<td><ul><span class='unreleased'>";
 			for(i = 0; i < HSMG1[1].length; i++){
 				S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSMG1[1][i][2] + "' target='_blank'>" + HSMG1[1][i][0] + "</a></span><span class='DollTime'>" + HSMG1[1][i][1] + "</span></li>");
 			}
-			S4 += "</ul>";
+			S4 += "</span></ul>";
 
-			S5 += "<td><ul>";
+			S5 += "<td><ul><span class='unreleased'>";
 			for(i = 0; i < HSMG1[2].length; i++){
 				S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSMG1[2][i][2] + "' target='_blank'>" + HSMG1[2][i][0] + "</a></span><span class='DollTime'>" + HSMG1[2][i][1] + "</span></li>");
 			}
-			S5 += "</ul>";
+			S5 += "</span></ul>";
 		}
 
 
 		//Checking AR
 		if(rations >= 4000 && ammo >= 4000){
-			S3 += "<td><ul>";
+			S3 += "<td><ul><span class='unreleased'>";
 			for(i = 0; i < HAR1[0].length; i++){
 				S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HAR1[0][i][2] + "' target='_blank'>" + HAR1[0][i][0] + "</a></span><span class='DollTime'>" + HAR1[0][i][1] + "</span></li>");
 			}
-			S3 += "</ul>";
+			S3 += "</span></ul>";
 
-			S4 += "<td><ul>";
+			S4 += "<td><ul><span class='unreleased'>";
 			for(i = 0; i < HAR1[1].length; i++){
 				S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HAR1[1][i][2] + "' target='_blank'>" + HAR1[1][i][0] + "</a></span><span class='DollTime'>" + HAR1[1][i][1] + "</span></li>");
 			}
@@ -175,9 +175,9 @@ function findHeavyDolls(mp, am, ra, pa){
 			for(i = 0; i < HAR2[0].length; i++){
 				S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HAR2[0][i][2] + "' target='_blank'>" + HAR2[0][i][0] + "</a></span><span class='DollTime'>" + HAR2[0][i][1] + "</span></li>");
 			}
-			S4 += "</ul>";
+			S4 += "</span></ul>";
 
-			S5 += "<td><ul>";
+			S5 += "<td><ul><span class='unreleased'>";
 			for(i = 0; i < HAR1[2].length; i++){
 				S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HAR1[2][i][2] + "' target='_blank'>" + HAR1[2][i][0] + "</a></span><span class='DollTime'>" + HAR1[2][i][1] + "</span></li>");
 			}
@@ -185,31 +185,31 @@ function findHeavyDolls(mp, am, ra, pa){
 			for(i = 0; i < HAR2[1].length; i++){
 				S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HAR2[1][i][2] + "' target='_blank'>" + HAR2[1][i][0] + "</a></span><span class='DollTime'>" + HAR2[1][i][1] + "</span></li>");
 			}
-			S5 += "</ul>";
+			S5 += "</span></ul>";
 		}else{
-			S3 += "<td><ul>";
+			S3 += "<td><ul><span class='unreleased'>";
 			for(i = 0; i < HAR1[0].length; i++){
 				S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HAR1[0][i][2] + "' target='_blank'>" + HAR1[0][i][0] + "</a></span><span class='DollTime'>" + HAR1[0][i][1] + "</span></li>");
 			}
-			S3 += "</ul>";
+			S3 += "</span></ul>";
 
-			S4 += "<td><ul>";
+			S4 += "<td><ul><span class='unreleased'>";
 			for(i = 0; i < HAR1[1].length; i++){
 				S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HAR1[1][i][2] + "' target='_blank'>" + HAR1[1][i][0] + "</a></span><span class='DollTime'>" + HAR1[1][i][1] + "</span></li>");
 			}
-			S4 += "</ul>";
+			S4 += "</span></ul>";
 
-			S5 += "<td><ul>";
+			S5 += "<td><ul><span class='unreleased'>";
 			for(i = 0; i < HAR1[2].length; i++){
 				S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HAR1[2][i][2] + "' target='_blank'>" + HAR1[2][i][0] + "</a></span><span class='DollTime'>" + HAR1[2][i][1] + "</span></li>");
 			}
-			S5 += "</ul>";
+			S5 += "</span></ul>";
 		}
 
 		//Checking RF
 		if(manpower >= 3000 && rations >= 3000){
 			if(manpower >= 4000 && rations >= 4000){
-				S3 += "<td><ul>";
+				S3 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HRF1[0].length; i++){
 					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HRF1[0][i][2] + "' target='_blank'>" + HRF1[0][i][0] + "</a></span><span class='DollTime'>" + HRF1[0][i][1] + "</span></li>");
 				}
@@ -217,9 +217,9 @@ function findHeavyDolls(mp, am, ra, pa){
 				for(i = 0; i < HRF2[0].length; i++){
 					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HRF2[0][i][2] + "' target='_blank'>" + HRF2[0][i][0] + "</a></span><span class='DollTime'>" + HRF2[0][i][1] + "</span></li>");
 				}
-				S3 += "</ul>";
+				S3 += "</span></ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HRF1[1].length; i++){
 					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HRF1[1][i][2] + "' target='_blank'>" + HRF1[1][i][0] + "</a></span><span class='DollTime'>" + HRF1[1][i][1] + "</span></li>");
 				}
@@ -227,9 +227,9 @@ function findHeavyDolls(mp, am, ra, pa){
 				for(i = 0; i < HRF2[1].length; i++){
 					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HRF2[1][i][2] + "' target='_blank'>" + HRF2[1][i][0] + "</a></span><span class='DollTime'>" + HRF2[1][i][1] + "</span></li>");
 				}
-				S4 += "</ul>";
+				S4 += "</span></ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HRF1[2].length; i++){
 					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HRF1[2][i][2] + "' target='_blank'>" + HRF1[2][i][0] + "</a></span><span class='DollTime'>" + HRF1[2][i][1] + "</span></li>");
 				}
@@ -237,25 +237,25 @@ function findHeavyDolls(mp, am, ra, pa){
 				for(i = 0; i < HRF2[2].length; i++){
 					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HRF2[2][i][2] + "' target='_blank'>" + HRF2[2][i][0] + "</a></span><span class='DollTime'>" + HRF2[2][i][1] + "</span></li>");
 				}
-				S5 += "</ul>";
+				S5 += "</span></ul>";
 			}else{
-				S3 += "<td><ul>";
+				S3 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HRF1[0].length; i++){
 					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HRF1[0][i][2] + "' target='_blank'>" + HRF1[0][i][0] + "</a></span><span class='DollTime'>" + HRF1[0][i][1] + "</span></li>");
 				}
-				S3 += "</ul>";
+				S3 += "</span></ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HRF1[1].length; i++){
 					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HRF1[1][i][2] + "' target='_blank'>" + HRF1[1][i][0] + "</a></span><span class='DollTime'>" + HRF1[1][i][1] + "</span></li>");
 				}
-				S4 += "</ul>";
+				S4 += "</span></ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HRF1[2].length; i++){
 					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HRF1[2][i][2] + "' target='_blank'>" + HRF1[2][i][0] + "</a></span><span class='DollTime'>" + HRF1[2][i][1] + "</span></li>");
 				}
-				S5 += "</ul>";
+				S5 += "</span></ul>";
 			}
 		}else{
 			S3 += "<td class='none'>RF該当無し</td>";
@@ -266,13 +266,13 @@ function findHeavyDolls(mp, am, ra, pa){
 		//Checking MG
 		if(manpower >= 4000 && ammo >= 6000 && parts >= 3000){
 			if(manpower >= 6000 && ammo >= 6000 && parts >= 4000){
-				S3 += "<td><ul>";
+				S3 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HMG1[0].length; i++){
 					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HMG1[0][i][2] + "' target='_blank'>" + HMG1[0][i][0] + "</a></span><span class='DollTime'>" + HMG1[0][i][1] + "</span></li>");
 				}
-				S3 += "</ul>";
+				S3 += "</span></ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HMG1[1].length; i++){
 					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HMG1[1][i][2] + "' target='_blank'>" + HMG1[1][i][0] + "</a></span><span class='DollTime'>" + HMG1[1][i][1] + "</span></li>");
 				}
@@ -280,9 +280,9 @@ function findHeavyDolls(mp, am, ra, pa){
 				for(i = 0; i < HMG2[0].length; i++){
 					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HMG2[0][i][2] + "' target='_blank'>" + HMG2[0][i][0] + "</a></span><span class='DollTime'>" + HMG2[0][i][1] + "</span></li>");
 				}
-				S4 += "</ul>";
+				S4 += "</span></ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HMG1[2].length; i++){
 					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HMG1[2][i][2] + "' target='_blank'>" + HMG1[2][i][0] + "</a></span><span class='DollTime'>" + HMG1[2][i][1] + "</span></li>");
 				}
@@ -290,25 +290,25 @@ function findHeavyDolls(mp, am, ra, pa){
 				for(i = 0; i < HMG2[1].length; i++){
 					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HMG2[1][i][2] + "' target='_blank'>" + HMG2[1][i][0] + "</a></span><span class='DollTime'>" + HMG2[1][i][1] + "</span></li>");
 				}
-				S5 += "</ul>";
+				S5 += "</span></ul>";
 			}else{
-				S3 += "<td><ul>";
+				S3 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HMG1[0].length; i++){
 					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HMG1[0][i][2] + "' target='_blank'>" + HMG1[0][i][0] + "</a></span><span class='DollTime'>" + HMG1[0][i][1] + "</span></li>");
 				}
-				S3 += "</ul>";
+				S3 += "</span></ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HMG1[1].length; i++){
 					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HMG1[1][i][2] + "' target='_blank'>" + HMG1[1][i][0] + "</a></span><span class='DollTime'>" + HMG1[1][i][1] + "</span></li>");
 				}
-				S4 += "</ul>";
+				S4 += "</span></ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HMG1[2].length; i++){
 					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HMG1[2][i][2] + "' target='_blank'>" + HMG1[2][i][0] + "</a></span><span class='DollTime'>" + HMG1[2][i][1] + "</span></li>");
 				}
-				S5 += "</ul>";
+				S5 += "</span></ul>";
 			}
 		}else{
 			S3 += "<td class='none'>MG該当無し</td>";
@@ -319,7 +319,7 @@ function findHeavyDolls(mp, am, ra, pa){
 		//Checking SG
 		if(manpower >= 4000 && rations >= 6000 && parts >= 3000){
 			if(manpower >= 6000 && rations >= 6000 && parts >= 4000){
-				S3 += "<td><ul>";
+				S3 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HSG1[0].length; i++){
 					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSG1[0][i][2] + "' target='_blank'>" + HSG1[0][i][0] + "</a></span><span class='DollTime'>" + HSG1[0][i][1] + "</span></li>");
 				}
@@ -327,9 +327,9 @@ function findHeavyDolls(mp, am, ra, pa){
 				for(i = 0; i < HSG2[0].length; i++){
 					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSG2[0][i][2] + "' target='_blank'>" + HSG2[0][i][0] + "</a></span><span class='DollTime'>" + HSG2[0][i][1] + "</span></li>");
 				}
-				S3 += "</ul>";
+				S3 += "</span></ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HSG1[1].length; i++){
 					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSG1[1][i][2] + "' target='_blank'>" + HSG1[1][i][0] + "</a></span><span class='DollTime'>" + HSG1[1][i][1] + "</span></li>");
 				}
@@ -337,9 +337,9 @@ function findHeavyDolls(mp, am, ra, pa){
 				for(i = 0; i < HSG2[1].length; i++){
 					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSG2[1][i][2] + "' target='_blank'>" + HSG2[1][i][0] + "</a></span><span class='DollTime'>" + HSG2[1][i][1] + "</span></li>");
 				}
-				S4 += "</ul>";
+				S4 += "</span></ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HSG1[2].length; i++){
 					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSG1[2][i][2] + "' target='_blank'>" + HSG1[2][i][0] + "</a></span><span class='DollTime'>" + HSG1[2][i][1] + "</span></li>");
 				}
@@ -347,25 +347,25 @@ function findHeavyDolls(mp, am, ra, pa){
 				for(i = 0; i < HSG2[2].length; i++){
 					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSG2[2][i][2] + "' target='_blank'>" + HSG2[2][i][0] + "</a></span><span class='DollTime'>" + HSG2[2][i][1] + "</span></li>");
 				}
-				S5 += "</ul>";
+				S5 += "</span></ul>";
 			}else{
-				S3 += "<td><ul>";
+				S3 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HSG1[0].length; i++){
 					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSG1[0][i][2] + "' target='_blank'>" + HSG1[0][i][0] + "</a></span><span class='DollTime'>" + HSG1[0][i][1] + "</span></li>");
 				}
-				S3 += "</ul>";
+				S3 += "</span></ul>";
 
-				S4 += "<td><ul>";
+				S4 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HSG1[1].length; i++){
 					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSG1[1][i][2] + "' target='_blank'>" + HSG1[1][i][0] + "</a></span><span class='DollTime'>" + HSG1[1][i][1] + "</span></li>");
 				}
-				S4 += "</ul>";
+				S4 += "</span></ul>";
 
-				S5 += "<td><ul>";
+				S5 += "<td><ul><span class='unreleased'>";
 				for(i = 0; i < HSG1[2].length; i++){
 					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HSG1[2][i][2] + "' target='_blank'>" + HSG1[2][i][0] + "</a></span><span class='DollTime'>" + HSG1[2][i][1] + "</span></li>");
 				}
-				S5 += "</ul>";
+				S5 += "</span></ul>";
 			}
 		}else{
 			S3 += "<td class='none'>SG該当無し</td>";

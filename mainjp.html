@@ -31,7 +31,7 @@
                     </div>
                     <div class="sub_selection check_box check_box_jp">
                         <label class="checklab">日本で実装されていない人形を隠す: <input type="checkbox" id="unreleasedChecker" onclick="checkboxClicked()"></label>
-                        <label class="checklab">日本で建造が不可能な人形を隠す: <input type="checkbox" id="uncraftChecker" onclick="checkboxClicked()"></label>
+                        <span style="display:none"><label class="checklab">日本で建造が不可能な人形を隠す: <input type="checkbox" id="uncraftChecker" onclick="checkboxClicked()"></label></span>
                     </div>
                     <div class="sub_selection">
                         <div class="selection_title">レシピ</div>                        
@@ -229,12 +229,12 @@
 
             <div id="info">
                 <ul>
-                    <li><span style="color:red">Red text</span> = unreleased in EN.</li>
-                    <li><span style="color:#9d00ff">Purple text</span> = released in EN however is currently uncraftable (eg. only event reward/drop) and will be craftable in the future.</li>
-                    <li>(?) = unsure if correct set.</li>
-                    <li>Created by Aaeeschylus.</li>
-                    <li>Please report any errors, bugs or suggestions to Aaeeschylus#6645 on Discord.</li>
-                    <li>NOTE: I will not be playing JP, so I will not be paying attention to anything related to it. If you want me to add anything JP related, message me on Discord with all necessary information and I will add it.</li>
+                    <li><span style="color:red">赤文字</span> = 日本では未実装のものです。</li>
+                    <li><span style="color:#9d00ff">紫文字</span> = 日本でも実装されていますが、今の所は建造不可のものです。これには例えばイベント限定やドロップ限定のものが含まれます。将来的には建造可能になります。</li>
+                    <li>製作者: Aaeeschylus#6645 (discord)</li>
+                    <li>翻訳者: 辛味成分</li>
+                    <li>TO DO: Wikiで全ての人形の個別ページが出来た時に、その全てをこのサイトの人形の名前とリンクする</li>
+                    <li><a href="main.html">英語バージョン</a></li>
                 </ul>
             </div>
         </div>
