@@ -16,7 +16,7 @@ var HG1 = [
 		[[["P08"], ["0:30:00"], ["P08"]], 
 		 [["C96"], ["0:30:00"], ["C96"]], 
 	 	 [["Type 92"], ["0:35:00"], ["Type_92"]], 
-		 [["<span class='unreleased'>P99</span>"], ["<span class='unreleased'>0:35:00</span>"], ["P99"]], 
+		 [["P99</span>"], ["0:35:00"], ["P99"]], 
 		 [["M9"], ["0:40:00"], ["M9"]], 
 		 [["Astra Revolver"], ["0:40:00"], ["Astra_Revolver"]], 
 		 [["Makarov"], ["0:40:00"], ["Makarov"]], 
@@ -78,7 +78,7 @@ var SMG2 = [
 		 [["UMP45"], ["2:15:00"], ["UMP45"]],
 		 [["<span class='unreleased'>Shipka</span>"], ["<span class='unreleased'>2:18:00</span>"], ["Shipka"]], 
 		 [["<span class='unreleased'>PP-19-01</span>"], ["<span class='unreleased'>2:18:00</span>"], ["PP-19-01"]], 
-		 [["<span class='unreleased'>PP-90</span>"], ["<span class='unreleased'>2:20:00</span>"], ["PP-90"]]],
+		 [["PP-90"], ["2:20:00"], ["PP-90"]]],
 
 		 //5 star
 		[[["Suomi"], ["2:25:00"], ["Suomi"]],
@@ -86,7 +86,7 @@ var SMG2 = [
 		 [["G36C"], ["2:30:00"], ["G36C"]], 
 		 [["SR-3MP"], ["2:33:00"], ["SR-3MP"]], 
 		 [["Vector"], ["2:35:00"], ["Vector"]], 
-		 [["<span class='unreleased'>Type 79</span>"], ["<span class='unreleased'>2:35:00</span>"], ["Type_79"]]]];
+		 [["Type 79"], ["2:35:00"], ["Type_79"]]]];
 
 
 var AR1 = [
@@ -171,7 +171,7 @@ var RF2 = [
 		[[["<span class='unreleased'>Carcano M1891</span>"], ["<span class='unreleased'>4:38:00</span>"], ["Carcano_M1891"]],
 		 [["Kar98k"], ["4:40:00"], ["Kar98k"]], 
 		 [["<span class='unreleased'>Carcano M91/38</span>"], ["<span class='unreleased'>4:42:00</span>"], ["Carcano_M91/38"]], 
-		 [["<span class='unreleased'>IWS-2000</span>"], ["<span class='unreleased'>4:52:00</span>"], ["IWS-2000"]], 
+		 [["IWS-2000"], ["4:52:00"], ["IWS-2000"]], 
 		 [["M99"], ["4:55:00"], ["M99"]], 
 		 [["Lee-Enfield"], ["5:00:00"], ["Lee-Enfield"]]]];
 
@@ -191,7 +191,7 @@ var MG1 = [
 
 		//4 star
 		[[["M60"], ["6:10:00"], ["M60"]],
-		 [["<span class='unreleased'>Mk48</span>"], ["<span class='unreleased'>6:20:00</span>"], ["Mk48"]],
+		 [["Mk48"], ["6:20:00"], ["Mk48"]],
 		 [["M1918"], ["6:25:00"], ["M1918"]],
 		 [["MG3"], ["6:30:00"], ["MG3"]]],
 
@@ -240,7 +240,7 @@ var HSMG2 = [
 		 [["UMP45"], ["2:15:00"], ["UMP45"]],
 		 [["<span class='unreleased'>Shipka</span>"], ["<span class='unreleased'>2:18:00</span>"], ["Shipka"]], 
 		 [["<span class='unreleased'>PP-19-01</span>"], ["<span class='unreleased'>2:18:00</span>"], ["PP-19-01"]], 
-		 [["<span class='unreleased'>PP-90</span>"], ["<span class='unreleased'>2:20:00</span>"], ["PP-90"]]],
+		 [["PP-90"], ["2:20:00"], ["PP-90"]]],
 
 		 //5 star
 		[[["Suomi"], ["2:25:00"], ["Suomi"]],
@@ -248,7 +248,7 @@ var HSMG2 = [
 		 [["G36C"], ["2:30:00"], ["G36C"]], 
 		 [["SR-3MP"], ["2:33:00"], ["SR-3MP"]], 
 		 [["Vector"], ["2:35:00"], ["Vector"]], 
-		 [["<span class='unreleased'>Type 79</span>"], ["<span class='unreleased'>2:35:00</span>"], ["Type_79"]]]];
+		 [["Type 79"], ["2:35:00"], ["Type_79"]]]];
 
 
 var HAR1 = [
@@ -321,7 +321,7 @@ var HRF2 = [
 		[[["<span class='unreleased'>Carcano M1891</span>"], ["<span class='unreleased'>4:38:00</span>"], ["Carcano_M1891"]],
 		 [["Kar98k"], ["4:40:00"], ["Kar98k"]], 
 		 [["<span class='unreleased'>Carcano M91/38</span>"], ["<span class='unreleased'>4:42:00</span>"], ["Carcano_M91/38"]], 
-		 [["<span class='unreleased'>IWS-2000</span>"], ["<span class='unreleased'>4:52:00</span>"], ["IWS-2000"]], 
+		 [["IWS-2000"], ["4:52:00"], ["IWS-2000"]], 
 		 [["M99"], ["4:55:00"], ["M99"]], 
 		 [["Lee-Enfield"], ["5:00:00"], ["Lee-Enfield"]]]];
 
@@ -344,7 +344,7 @@ var HMG1 = [
 
 var HMG2 = [
 		//4 star
-		[[["<span class='unreleased'>Mk48</span>"], ["<span class='unreleased'>6:20:00</span>"], ["Mk48"]],
+		[[["Mk48"], ["6:20:00"], ["Mk48"]],
 		 [["<span class='unreleased'>AEK-999</span>"],  ["<span class='unreleased'>6:20:00</span>"], ["AEK-999"]],
 		 [["<span class='unreleased'>Ameli</span>"], ["<span class='unreleased'>6:25:00</span>"], ["Ameli"]],
 		 [["PK"], ["6:30:00"], ["PK"]]],
