@@ -113,7 +113,7 @@ var AR1 = [
 
 		//5 star
 		[[["416"], ["3:55:00"], ["'></a><a'"]],
-		 [["<span class='unreleased'>G11</span>"], ["<span class='unreleased'>4:04:00</span>"], ["'></a><a'"]]]];
+		 [["G11"], ["4:04:00"], ["'></a><a'"]]]];
 
 
 var AR2 = [
@@ -268,7 +268,7 @@ var HAR1 = [
 
 		//5 star
 		[[["416"], ["3:55:00"], ["'></a><a'"]],
-		 [["<span class='unreleased'>G11</span>"], ["<span class='unreleased'>4:04:00</span>"], ["'></a><a'"]]]];
+		 [["G11"], ["4:04:00"], ["'></a><a'"]]]];
 
 
 var HAR2 = [
