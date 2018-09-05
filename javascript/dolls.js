@@ -58,6 +58,7 @@ var SMG1 = [
 
 		//3 star
 		[[["Micro Uzi"], ["1:40:00"], ["Micro_Uzi"]], 
+		 [["<span class='unreleased'>F1</span>"], ["<span class='unreleased'>1:50:00</span>"], ["F1"]],
 		 [["MAC-10"], ["2:00:00"], ["MAC-10"]],
 		 [["Skorpion"], ["2:00:00"], ["Skorpion"]], 
 		 [["PPS-43"], ["2:10:00"], ["PPS-43"]]],
@@ -218,7 +219,7 @@ var MG2 = [
 var HSMG1 = [
 		//3 star
 		[[["Micro Uzi"], ["1:40:00"], ["Micro_Uzi"]], 
-		 [["F1"], ["1:50:00"], ["F1"]],
+		 [["<span class='unreleased'>F1</span>"], ["<span class='unreleased'>1:50:00</span>"], ["F1"]],
 		 [["MAC-10"], ["2:00:00"], ["MAC-10"]],
 		 [["Skorpion"], ["2:00:00"], ["Skorpion"]], 
 		 [["<span class='uncraftable'>Z-62</span>"], ["<span class='uncraftable'>2:05:00</span>"], ["Z-62"]], 
@@ -335,6 +336,7 @@ var HMG1 = [
 
 		//4 star
 		[[["M60"], ["6:10:00"], ["M60"]],
+		 [["Mk48"], ["6:20:00"], ["Mk48"]],
 		 [["M1918"], ["6:25:00"], ["M1918"]],
 		 [["MG3"], ["6:30:00"], ["MG3"]]],
 
@@ -344,8 +346,7 @@ var HMG1 = [
 
 var HMG2 = [
 		//4 star
-		[[["Mk48"], ["6:20:00"], ["Mk48"]],
-		 [["<span class='unreleased'>AEK-999</span>"],  ["<span class='unreleased'>6:20:00</span>"], ["AEK-999"]],
+		[[["<span class='unreleased'>AEK-999</span>"],  ["<span class='unreleased'>6:20:00</span>"], ["AEK-999"]],
 		 [["<span class='unreleased'>Ameli</span>"], ["<span class='unreleased'>6:25:00</span>"], ["Ameli"]],
 		 [["PK"], ["6:30:00"], ["PK"]]],
 

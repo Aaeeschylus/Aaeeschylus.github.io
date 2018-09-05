@@ -135,58 +135,58 @@ function findDolls(mp, am, ra, pa){
 			if(manpower >= 130 && ammo >= 130 && rations >= 130){
 				S2 += "<td><ul>";
 				for(i = 0; i < HG1[0].length; i++){
-					S2 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HG1[0][i][2] + "' target='_blank'>" +  HG1[0][i][0] + "</a></span><span class='DollTime'>" + HG1[0][i][1] + "</span></li>");	
+					S2 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + HG1[0][i][2] + "' target='_blank'>" +  HG1[0][i][0] + "</a></span><span class='DollTime'>" + HG1[0][i][1] + "</span></li>");	
 				}
 				S2 += "</ul>";
 
 				S3 += "<td><ul>";
 				for(i = 0; i < HG1[1].length; i++){
-					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HG1[1][i][2] + "' target='_blank'>" + HG1[1][i][0] + "</a></span><span class='DollTime'>" + HG1[1][i][1] + "</span></li>");
+					S3 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + HG1[1][i][2] + "' target='_blank'>" + HG1[1][i][0] + "</a></span><span class='DollTime'>" + HG1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
 				S4 += "<td><ul>";
 				for(i = 0; i < HG1[2].length; i++){
-					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HG1[2][i][2] + "' target='_blank'>" + HG1[2][i][0] + "</a></span><span class='DollTime'>" + HG1[2][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + HG1[2][i][2] + "' target='_blank'>" + HG1[2][i][0] + "</a></span><span class='DollTime'>" + HG1[2][i][1] + "</span></li>");
 				}
 				S4 +="<div class='clear'></div>";
 				for(i = 0; i < HG2[0].length; i++){
-					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HG2[0][i][2] + "' target='_blank'>" + HG2[0][i][0] + "</a></span><span class='DollTime'>" + HG2[0][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + HG2[0][i][2] + "' target='_blank'>" + HG2[0][i][0] + "</a></span><span class='DollTime'>" + HG2[0][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
 				S5 += "<td><ul>";
 				for(i = 0; i < HG1[3].length; i++){
-					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HG1[3][i][2] + "' target='_blank'>" + HG1[3][i][0] + "</a></span><span class='DollTime'>" + HG1[3][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + HG1[3][i][2] + "' target='_blank'>" + HG1[3][i][0] + "</a></span><span class='DollTime'>" + HG1[3][i][1] + "</span></li>");
 				}
 				S5 +="<div class='clear'></div>";
 				for(i = 0; i < HG2[1].length; i++){
-					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HG2[1][i][2] + "' target='_blank'>" + HG2[1][i][0] + "</a></span><span class='DollTime'>" + HG2[1][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + HG2[1][i][2] + "' target='_blank'>" + HG2[1][i][0] + "</a></span><span class='DollTime'>" + HG2[1][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 
 			}else{
 				S2 += "<td><ul>";
 				for(i = 0; i < HG1[0].length; i++){
-					S2 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HG1[0][i][2] + "' target='_blank'>" + HG1[0][i][0] + "</a></span><span class='DollTime'>" + HG1[0][i][1] + "</span></li>");
+					S2 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + HG1[0][i][2] + "' target='_blank'>" + HG1[0][i][0] + "</a></span><span class='DollTime'>" + HG1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
 				S3 += "<td><ul>";
 				for(i = 0; i < HG1[1].length; i++){
-					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HG1[1][i][2] + "' target='_blank'>" + HG1[1][i][0] + "</a></span><span class='DollTime'>" + HG1[1][i][1] + "</span></li>");
+					S3 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + HG1[1][i][2] + "' target='_blank'>" + HG1[1][i][0] + "</a></span><span class='DollTime'>" + HG1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
 				S4 += "<td><ul>";
 				for(i = 0; i < HG1[2].length; i++){
-					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HG1[2][i][2] + "' target='_blank'>" + HG1[2][i][0] + "</a></span><span class='DollTime'>" + HG1[2][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + HG1[2][i][2] + "' target='_blank'>" + HG1[2][i][0] + "</a></span><span class='DollTime'>" + HG1[2][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
 				S5 += "<td><ul>";
 				for(i = 0; i < HG1[3].length; i++){
-					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + HG1[3][i][2] + "' target='_blank'>" + HG1[3][i][0] + "</a></span><span class='DollTime'>" + HG1[3][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + HG1[3][i][2] + "' target='_blank'>" + HG1[3][i][0] + "</a></span><span class='DollTime'>" + HG1[3][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 			}
@@ -201,62 +201,62 @@ function findDolls(mp, am, ra, pa){
 		if(manpower >= 400 && ammo >= 400){
 			S2 += "<td><ul>";
 			for(i = 0; i < SMG1[0].length; i++){
-				S2 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + SMG1[0][i][2] + "' target='_blank'>" + SMG1[0][i][0] + "</a></span><span class='DollTime'>" + SMG1[0][i][1] + "</span></li>");
+				S2 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + SMG1[0][i][2] + "' target='_blank'>" + SMG1[0][i][0] + "</a></span><span class='DollTime'>" + SMG1[0][i][1] + "</span></li>");
 			}
 			S2 += "</ul>";
 
 			S3 += "<td><ul>";
 			for(i = 0; i < SMG1[1].length; i++){
-				S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + SMG1[1][i][2] + "' target='_blank'>" + SMG1[1][i][0] + "</a></span><span class='DollTime'>" + SMG1[1][i][1] + "</span></li>");
+				S3 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + SMG1[1][i][2] + "' target='_blank'>" + SMG1[1][i][0] + "</a></span><span class='DollTime'>" + SMG1[1][i][1] + "</span></li>");
 			}
 			S3 +="<div class='clear'></div>";
 			for(i = 0; i < SMG2[0].length; i++){
-				S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + SMG2[0][i][2] + "' target='_blank'>" + SMG2[0][i][0] + "</a></span><span class='DollTime'>" + SMG2[0][i][1] + "</span></li>");
+				S3 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + SMG2[0][i][2] + "' target='_blank'>" + SMG2[0][i][0] + "</a></span><span class='DollTime'>" + SMG2[0][i][1] + "</span></li>");
 			}
 			S3 += "</ul>";
 
 			S4 += "<td><ul>";
 			for(i = 0; i < SMG1[2].length; i++){
-				S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + SMG1[2][i][2] + "' target='_blank'>" + SMG1[2][i][0] + "</a></span><span class='DollTime'>" + SMG1[2][i][1] + "</span></li>");
+				S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + SMG1[2][i][2] + "' target='_blank'>" + SMG1[2][i][0] + "</a></span><span class='DollTime'>" + SMG1[2][i][1] + "</span></li>");
 			}
 			S4 +="<div class='clear'></div>";
 			for(i = 0; i < SMG2[1].length; i++){
-				S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + SMG2[1][i][2] + "' target='_blank'>" + SMG2[1][i][0] + "</a></span><span class='DollTime'>" + SMG2[1][i][1] + "</span></li>");
+				S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + SMG2[1][i][2] + "' target='_blank'>" + SMG2[1][i][0] + "</a></span><span class='DollTime'>" + SMG2[1][i][1] + "</span></li>");
 			}
 			S4 += "</ul>";
 
 			S5 += "<td><ul>";
 			for(i = 0; i < SMG1[3].length; i++){
-				S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + SMG1[3][i][2] + "' target='_blank'>" + SMG1[3][i][0] + "</a></span><span class='DollTime'>" + SMG1[3][i][1] + "</span></li>");
+				S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + SMG1[3][i][2] + "' target='_blank'>" + SMG1[3][i][0] + "</a></span><span class='DollTime'>" + SMG1[3][i][1] + "</span></li>");
 			}
 			S5 +="<div class='clear'></div>";
 			for(i = 0; i < SMG2[2].length; i++){
-				S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + SMG2[2][i][2] + "' target='_blank'>" + SMG2[2][i][0] + "</a></span><span class='DollTime'>" + SMG2[2][i][1] + "</span></li>");
+				S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + SMG2[2][i][2] + "' target='_blank'>" + SMG2[2][i][0] + "</a></span><span class='DollTime'>" + SMG2[2][i][1] + "</span></li>");
 			}
 			S5 += "</ul>";
 
 		}else{
 			S2 += "<td><ul>";
 			for(i = 0; i < SMG1[0].length; i++){
-				S2 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + SMG1[0][i][2] + "' target='_blank'>" + SMG1[0][i][0] + "</a></span><span class='DollTime'>" + SMG1[0][i][1] + "</span></li>");
+				S2 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + SMG1[0][i][2] + "' target='_blank'>" + SMG1[0][i][0] + "</a></span><span class='DollTime'>" + SMG1[0][i][1] + "</span></li>");
 			}
 			S2 += "</ul>";
 
 			S3 += "<td><ul>";
 			for(i = 0; i < SMG1[1].length; i++){
-				S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + SMG1[1][i][2] + "' target='_blank'>" + SMG1[1][i][0] + "</a></span><span class='DollTime'>" + SMG1[1][i][1] + "</span></li>");
+				S3 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + SMG1[1][i][2] + "' target='_blank'>" + SMG1[1][i][0] + "</a></span><span class='DollTime'>" + SMG1[1][i][1] + "</span></li>");
 			}
 			S3 += "</ul>";
 
 			S4 += "<td><ul>";
 			for(i = 0; i < SMG1[2].length; i++){
-				S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + SMG1[2][i][2] + "' target='_blank'>" + SMG1[2][i][0] + "</a></span><span class='DollTime'>" + SMG1[2][i][1] + "</span></li>");
+				S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + SMG1[2][i][2] + "' target='_blank'>" + SMG1[2][i][0] + "</a></span><span class='DollTime'>" + SMG1[2][i][1] + "</span></li>");
 			}
 			S4 += "</ul>";
 
 			S5 += "<td><ul>";
 			for(i = 0; i < SMG1[3].length; i++){
-				S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + SMG1[3][i][2] + "' target='_blank'>" + SMG1[3][i][0] + "</a></span><span class='DollTime'>" + SMG1[3][i][1] + "</span></li>");
+				S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + SMG1[3][i][2] + "' target='_blank'>" + SMG1[3][i][0] + "</a></span><span class='DollTime'>" + SMG1[3][i][1] + "</span></li>");
 			}
 			S5 += "</ul>";
 		}
@@ -266,57 +266,57 @@ function findDolls(mp, am, ra, pa){
 			if(ammo >= 400 & rations >= 400){
 				S2 += "<td><ul>";
 				for(i = 0; i < AR1[0].length; i++){
-					S2 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + AR1[0][i][2] + "' target='_blank'>" + AR1[0][i][0] + "</a></span><span class='DollTime'>" + AR1[0][i][1] + "</span></li>");
+					S2 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + AR1[0][i][2] + "' target='_blank'>" + AR1[0][i][0] + "</a></span><span class='DollTime'>" + AR1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
 				S3 += "<td><ul>";
 				for(i = 0; i < AR1[1].length; i++){
-					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + AR1[1][i][2] + "' target='_blank'>" + AR1[1][i][0] + "</a></span><span class='DollTime'>" + AR1[1][i][1] + "</span></li>");
+					S3 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + AR1[1][i][2] + "' target='_blank'>" + AR1[1][i][0] + "</a></span><span class='DollTime'>" + AR1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
 				S4 += "<td><ul>";
 				for(i = 0; i < AR1[2].length; i++){
-					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + AR1[2][i][2] + "' target='_blank'>" + AR1[2][i][0] + "</a></span><span class='DollTime'>" + AR1[2][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + AR1[2][i][2] + "' target='_blank'>" + AR1[2][i][0] + "</a></span><span class='DollTime'>" + AR1[2][i][1] + "</span></li>");
 				}
 				S4 +="<div class='clear'></div>";
 				for(i = 0; i < AR2[0].length; i++){
-					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + AR2[0][i][2] + "' target='_blank'>" + AR2[0][i][0] + "</a></span><span class='DollTime'>" + AR2[0][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + AR2[0][i][2] + "' target='_blank'>" + AR2[0][i][0] + "</a></span><span class='DollTime'>" + AR2[0][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
 				S5 += "<td><ul>";
 				for(i = 0; i < AR1[3].length; i++){
-					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + AR1[3][i][2] + "' target='_blank'>" + AR1[3][i][0] + "</a></span><span class='DollTime'>" + AR1[3][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + AR1[3][i][2] + "' target='_blank'>" + AR1[3][i][0] + "</a></span><span class='DollTime'>" + AR1[3][i][1] + "</span></li>");
 				}
 				S5 +="<div class='clear'></div>";
 				for(i = 0; i < AR2[1].length; i++){
-					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + AR2[1][i][2] + "' target='_blank'>" + AR2[1][i][0] + "</a></span><span class='DollTime'>" + AR2[1][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + AR2[1][i][2] + "' target='_blank'>" + AR2[1][i][0] + "</a></span><span class='DollTime'>" + AR2[1][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 			}else{
 				S2 += "<td><ul>";
 				for(i = 0; i < AR1[0].length; i++){
-					S2 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + AR1[0][i][2] + "' target='_blank'>" + AR1[0][i][0] + "</a></span><span class='DollTime'>" + AR1[0][i][1] + "</span></li>");
+					S2 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + AR1[0][i][2] + "' target='_blank'>" + AR1[0][i][0] + "</a></span><span class='DollTime'>" + AR1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
 				S3 += "<td><ul>";
 				for(i = 0; i < AR1[1].length; i++){
-					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + AR1[1][i][2] + "' target='_blank'>" + AR1[1][i][0] + "</a></span><span class='DollTime'>" + AR1[1][i][1] + "</span></li>");
+					S3 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + AR1[1][i][2] + "' target='_blank'>" + AR1[1][i][0] + "</a></span><span class='DollTime'>" + AR1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
 				S4 += "<td><ul>";
 				for(i = 0; i < AR1[2].length; i++){
-					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + AR1[2][i][2] + "' target='_blank'>" + AR1[2][i][0] + "</a></span><span class='DollTime'>" + AR1[2][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + AR1[2][i][2] + "' target='_blank'>" + AR1[2][i][0] + "</a></span><span class='DollTime'>" + AR1[2][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
 				S5 += "<td><ul>";
 				for(i = 0; i < AR1[3].length; i++){
-					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + AR1[3][i][2] + "' target='_blank'>" + AR1[3][i][0] + "</a></span><span class='DollTime'>" + AR1[3][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + AR1[3][i][2] + "' target='_blank'>" + AR1[3][i][0] + "</a></span><span class='DollTime'>" + AR1[3][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 			}
@@ -332,61 +332,61 @@ function findDolls(mp, am, ra, pa){
 			if(manpower >= 400 && rations >= 400){
 				S2 += "<td><ul>";
 				for(i = 0; i < RF1[0].length; i++){
-					S2 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + RF1[0][i][2] + "' target='_blank'>" + RF1[0][i][0] + "</a></span><span class='DollTime'>" + RF1[0][i][1] + "</span></li>");
+					S2 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + RF1[0][i][2] + "' target='_blank'>" + RF1[0][i][0] + "</a></span><span class='DollTime'>" + RF1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
 				S3 += "<td><ul>";
 				for(i = 0; i < RF1[1].length; i++){
-					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + RF1[1][i][2] + "' target='_blank'>" + RF1[1][i][0] + "</a></span><span class='DollTime'>" + RF1[1][i][1] + "</span></li>");
+					S3 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + RF1[1][i][2] + "' target='_blank'>" + RF1[1][i][0] + "</a></span><span class='DollTime'>" + RF1[1][i][1] + "</span></li>");
 				}
 				S3 +="<div class='clear'></div>";
 				for(i = 0; i < RF2[0].length; i++){
-					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + RF2[0][i][2] + "' target='_blank'>" + RF2[0][i][0] + "</a></span><span class='DollTime'>" + RF2[0][i][1] + "</span></li>");
+					S3 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + RF2[0][i][2] + "' target='_blank'>" + RF2[0][i][0] + "</a></span><span class='DollTime'>" + RF2[0][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
 				S4 += "<td><ul>";
 				for(i = 0; i < RF1[2].length; i++){
-					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + RF1[2][i][2] + "' target='_blank'>" + RF1[2][i][0] + "</a></span><span class='DollTime'>" + RF1[2][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + RF1[2][i][2] + "' target='_blank'>" + RF1[2][i][0] + "</a></span><span class='DollTime'>" + RF1[2][i][1] + "</span></li>");
 				}
 				S4 +="<div class='clear'></div>";
 				for(i = 0; i < RF2[1].length; i++){
-					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + RF2[1][i][2] + "' target='_blank'>" + RF2[1][i][0] + "</a></span><span class='DollTime'>" + RF2[1][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + RF2[1][i][2] + "' target='_blank'>" + RF2[1][i][0] + "</a></span><span class='DollTime'>" + RF2[1][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
 				S5 += "<td><ul>";
 				for(i = 0; i < RF1[3].length; i++){
-					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + RF1[3][i][2] + "' target='_blank'>" + RF1[3][i][0] + "</a></span><span class='DollTime'>" + RF1[3][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + RF1[3][i][2] + "' target='_blank'>" + RF1[3][i][0] + "</a></span><span class='DollTime'>" + RF1[3][i][1] + "</span></li>");
 				}
 				S5 +="<div class='clear'></div>";
 				for(i = 0; i < RF2[2].length; i++){
-					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + RF2[2][i][2] + "' target='_blank'>" + RF2[2][i][0] + "</a></span><span class='DollTime'>" + RF2[2][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + RF2[2][i][2] + "' target='_blank'>" + RF2[2][i][0] + "</a></span><span class='DollTime'>" + RF2[2][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 			}else{
 				S2 += "<td><ul>";
 				for(i = 0; i < RF1[0].length; i++){
-					S2 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + RF1[0][i][2] + "' target='_blank'>" + RF1[0][i][0] + "</a></span><span class='DollTime'>" + RF1[0][i][1] + "</span></li>");
+					S2 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + RF1[0][i][2] + "' target='_blank'>" + RF1[0][i][0] + "</a></span><span class='DollTime'>" + RF1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
 				S3 += "<td><ul>";
 				for(i = 0; i < RF1[1].length; i++){
-					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + RF1[1][i][2] + "' target='_blank'>" + RF1[1][i][0] + "</a></span><span class='DollTime'>" + RF1[1][i][1] + "</span></li>");
+					S3 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + RF1[1][i][2] + "' target='_blank'>" + RF1[1][i][0] + "</a></span><span class='DollTime'>" + RF1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
 				S4 += "<td><ul>";
 				for(i = 0; i < RF1[2].length; i++){
-					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + RF1[2][i][2] + "' target='_blank'>" + RF1[2][i][0] + "</a></span><span class='DollTime'>" + RF1[2][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + RF1[2][i][2] + "' target='_blank'>" + RF1[2][i][0] + "</a></span><span class='DollTime'>" + RF1[2][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
 				S5 += "<td><ul>";
 				for(i = 0; i < RF1[3].length; i++){
-					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + RF1[3][i][2] + "' target='_blank'>" + RF1[3][i][0] + "</a></span><span class='DollTime'>" + RF1[3][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + RF1[3][i][2] + "' target='_blank'>" + RF1[3][i][0] + "</a></span><span class='DollTime'>" + RF1[3][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 			}
@@ -402,57 +402,57 @@ function findDolls(mp, am, ra, pa){
 			if(manpower >= 600 && rations >= 100 && parts >= 400){
 				S2 += "<td><ul>";
 				for(i = 0; i < MG1[0].length; i++){
-					S2 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + MG1[0][i][2] + "' target='_blank'>" + MG1[0][i][0] + "</a></span><span class='DollTime'>" + MG1[0][i][1] + "</span></li>");
+					S2 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + MG1[0][i][2] + "' target='_blank'>" + MG1[0][i][0] + "</a></span><span class='DollTime'>" + MG1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
 				S3 += "<td><ul>";
 				for(i = 0; i < MG1[1].length; i++){
-					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + MG1[1][i][2] + "' target='_blank'>" + MG1[1][i][0] + "</a></span><span class='DollTime'>" + MG1[1][i][1] + "</span></li>");
+					S3 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + MG1[1][i][2] + "' target='_blank'>" + MG1[1][i][0] + "</a></span><span class='DollTime'>" + MG1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
 				S4 += "<td><ul>";
 				for(i = 0; i < MG1[2].length; i++){
-					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + MG1[2][i][2] + "' target='_blank'>" + MG1[2][i][0] + "</a></span><span class='DollTime'>" + MG1[2][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + MG1[2][i][2] + "' target='_blank'>" + MG1[2][i][0] + "</a></span><span class='DollTime'>" + MG1[2][i][1] + "</span></li>");
 				}
 				S4 +="<div class='clear'></div>";
 				for(i = 0; i < MG2[0].length; i++){
-					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + MG2[0][i][2] + "' target='_blank'>" + MG2[0][i][0] + "</a></span><span class='DollTime'>" + MG2[0][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + MG2[0][i][2] + "' target='_blank'>" + MG2[0][i][0] + "</a></span><span class='DollTime'>" + MG2[0][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
 				S5 += "<td><ul>";
 				for(i = 0; i < MG1[3].length; i++){
-					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + MG1[3][i][2] + "' target='_blank'>" + MG1[3][i][0] + "</a></span><span class='DollTime'>" + MG1[3][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + MG1[3][i][2] + "' target='_blank'>" + MG1[3][i][0] + "</a></span><span class='DollTime'>" + MG1[3][i][1] + "</span></li>");
 				}
 				S5 +="<div class='clear'></div>";
 				for(i = 0; i < MG2[1].length; i++){
-					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + MG2[1][i][2] + "' target='_blank'>" + MG2[1][i][0] + "</a></span><span class='DollTime'>" + MG2[1][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + MG2[1][i][2] + "' target='_blank'>" + MG2[1][i][0] + "</a></span><span class='DollTime'>" + MG2[1][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 			}else{
 				S2 += "<td><ul>";
 				for(i = 0; i < MG1[0].length; i++){
-					S2 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + MG1[0][i][2] + "' target='_blank'>" + MG1[0][i][0] + "</a></span><span class='DollTime'>" + MG1[0][i][1] + "</span></li>");
+					S2 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + MG1[0][i][2] + "' target='_blank'>" + MG1[0][i][0] + "</a></span><span class='DollTime'>" + MG1[0][i][1] + "</span></li>");
 				}
 				S2 += "</ul>";
 
 				S3 += "<td><ul>";
 				for(i = 0; i < MG1[1].length; i++){
-					S3 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + MG1[1][i][2] + "' target='_blank'>" + MG1[1][i][0] + "</a></span><span class='DollTime'>" + MG1[1][i][1] + "</span></li>");
+					S3 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + MG1[1][i][2] + "' target='_blank'>" + MG1[1][i][0] + "</a></span><span class='DollTime'>" + MG1[1][i][1] + "</span></li>");
 				}
 				S3 += "</ul>";
 
 				S4 += "<td><ul>";
 				for(i = 0; i < MG1[2].length; i++){
-					S4 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + MG1[2][i][2] + "' target='_blank'>" + MG1[2][i][0] + "</a></span><span class='DollTime'>" + MG1[2][i][1] + "</span></li>");
+					S4 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + MG1[2][i][2] + "' target='_blank'>" + MG1[2][i][0] + "</a></span><span class='DollTime'>" + MG1[2][i][1] + "</span></li>");
 				}
 				S4 += "</ul>";
 
 				S5 += "<td><ul>";
 				for(i = 0; i < MG1[3].length; i++){
-					S5 += ("<li><span class='DollName'><a class='dolls' href='TEMPURL" + MG1[3][i][2] + "' target='_blank'>" + MG1[3][i][0] + "</a></span><span class='DollTime'>" + MG1[3][i][1] + "</span></li>");
+					S5 += ("<li><span class='DollName'><a class='dolls' href='https://wikiwiki.jp/dolls-fl/" + MG1[3][i][2] + "' target='_blank'>" + MG1[3][i][0] + "</a></span><span class='DollTime'>" + MG1[3][i][1] + "</span></li>");
 				}
 				S5 += "</ul>";
 			}
