@@ -9,8 +9,8 @@ var HG1 = [
 		 [["PPK"], ["0:22:00"], ["PPK"]], 
 		 [["FNP-9"], ["0:25:00"], ["FNP-9"]], 
 		 [["MP-446"], ["0:25:00"], ["MP-446"]], 
-		 [["<span class='unreleased'>USP Compact</span>"], ["<span class='unreleased'>0:28:00</span>"], ["USP_Compact"]], 
-		 [["<span class='unreleased'>Bren Ten</span>"], ["<span class='unreleased'>0:28:00</span>"], ["Bren_Ten"]]],
+		 [["USP Compact"], ["0:28:00"], ["USP_Compact"]], 
+		 [["Bren Ten"], ["0:28:00"], ["Bren_Ten"]]],
 
 		//3 star
 		[[["P08"], ["0:30:00"], ["P08"]], 
