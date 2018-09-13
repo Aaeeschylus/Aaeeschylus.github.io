@@ -221,7 +221,7 @@ var HSMG1 = [
 		 [["<span class='unreleased'>F1</span>"], ["<span class='unreleased'>1:50:00</span>"], ["F1"]],
 		 [["イングラム"], ["2:00:00"], ["イングラム"]],
 		 [["スコーピオン"], ["2:00:00"], ["スコーピオン"]], 
-		 [["<span class='unreleased'>Z-62</span>"], ["<span class='unreleased'>2:05:00</span>"], ["Z-62"]], 
+		 [["<span class='uncraftable'>Z-62</span>"], ["<span class='uncraftable'>2:05:00</span>"], ["Z-62"]], 
 		 [["PPS-43"], ["2:10:00"], ["PPS-43"]]],
 
 		//4 star
@@ -255,7 +255,7 @@ var HAR1 = [
 		//3 star
 		[[["StG44"], ["3:00:00"], ["StG44"]],
 		 [["OTs-12"], ["3:10:00"], ["OTs-12"]],
-		 [["<span class='unreleased'>ARX-160</span>"], ["<span class='unreleased'>3:15:00</span>"], ["ARX-160"]], 
+		 [["<span class='uncraftable'>ARX-160</span>"], ["<span class='uncraftable'>3:15:00</span>"], ["ARX-160"]], 
 		 [["AK-47"], ["3:20:00"], ["AK-47"]], 
 		 [["FF FNC"], ["3:20:00"], ["FF FNC"]]],
 
@@ -314,7 +314,7 @@ var HRF2 = [
 		//4 star
 		[[["<span class='unreleased'>T-5000</span>"], ["<span class='unreleased'>4:10:00</span>"], ["T-5000"]],
 		 [["SVD"], ["4:15:00"], ["SVD"]],
-		 [["<span class='unreleased'>Gr PSG-1</span>"], ["<span class='unreleased'>4:20:00</span>"], ["Gr PSG-1"]],
+		 [["<span class='uncraftable'>Gr PSG-1</span>"], ["<span class='uncraftable'>4:20:00</span>"], ["Gr PSG-1"]],
 		 [["<span class='unreleased'>PzB39</span>"], ["<span class='unreleased'>4:30:00</span>"], ["PzB39"]]],
 
 		//5 star
