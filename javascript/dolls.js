@@ -202,7 +202,8 @@ var MG1 = [
 
 var MG2 = [
 		//4 star
-		[[["<span class='unreleased'>Ameli</span>"], ["<span class='unreleased'>6:25:00</span>"], ["Ameli"]],
+		[[["<span class='unreleased'>AEK-999</span>"],  ["<span class='unreleased'>6:20:00</span>"], ["AEK-999"]],
+		 [["<span class='unreleased'>Ameli</span>"], ["<span class='unreleased'>6:25:00</span>"], ["Ameli"]],
 		 [["PK"], ["6:30:00"], ["PK"]]],
 
 		//5 star
