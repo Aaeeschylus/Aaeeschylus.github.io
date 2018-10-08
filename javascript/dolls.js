@@ -372,7 +372,7 @@ var HSG1 = [
 
 var HSG2 = [
 		//3 Star
-		[[["<span class='unreleased'>NS2000</span>"], ["<span class='unreleased'>7:15:00</span>"], ["NS2000"]],
+		[[["NS2000"], ["7:15:00"], ["NS2000"]],
 		 [["RMB-93"], ["7:30:00"], ["RMB-93"]], 
 		 [["<span class='unreleased'>M1897</span>"], ["<span class='unreleased'>7:30:00</span>"], ["M1897"]]],
 
@@ -381,10 +381,10 @@ var HSG2 = [
 		 [["<span class='unreleased'>M1014 (?)</span>"], ["<span class='unreleased'>7:14:00</span>"], ["M1014"]],
 		 [["M37"], [" 7:45:00"], ["M37"]],
 		 [["Super-Shorty"], ["7:50:00"], ["Super-Shorty"]], 
-		 [["<span class='unreleased'>USAS-12</span>"], ["<span class='unreleased'>7:55:00</span>"], ["USAS-12"]]],
+		 [["USAS-12"], ["7:55:00"], ["USAS-12"]]],
 
 		//5 Star
 		[[["<span class='unreleased'>Saiga-12</span>"], ["<span class='unreleased'>8:05:00</span>"], ["Saiga-12"]],
 		 [["<span class='unreleased'>FP-6 (?)</span>"], ["<span class='unreleased'>8:06:00</span>"], ["FP-6"]],
-		 [["<span class='unreleased'>S.A.T.8</span>"], ["<span class='unreleased'>8:10:00</span>"], ["S.A.T.8"]],
+		 [["S.A.T.8"], ["8:10:00"], ["S.A.T.8"]],
 		 [["<span class='unreleased'>AA-12 (?)</span>"], ["<span class='unreleased'>8:12:00</span>"], ["AA-12"]]]];
