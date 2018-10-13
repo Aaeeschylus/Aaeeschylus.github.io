@@ -377,9 +377,9 @@ var HSG2 = [
 
 		//4 Star
 		[
-		 [["<span class='unreleased'>M1014</span>"], ["<span class='unreleased'>7:14:00</span>"], ["M1014"]],
+		 [["M1014"], ["7:14:00"], ["M1014"]],
 		 [["M37"], [" 7:45:00"], ["M37"]],
-		 [["Super-Shorty"], ["7:50:00"], ["Super-Shorty"]], 
+		 [["<span class='unreleased'>Super-Shorty</span>"], ["<span class='unreleased'>7:50:00</span>"], ["Super-Shorty"]], 
 		 [["<span class='unreleased'>USAS-12</span>"], ["<span class='unreleased'>7:55:00</span>"], ["USAS-12"]]],
 
 		//5 Star
