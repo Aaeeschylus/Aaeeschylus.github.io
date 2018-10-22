@@ -8,9 +8,8 @@ var HG1 = [
 		 [["P38"], ["0:20:00"], ["P38"]], 
 		 [["PPK"], ["0:22:00"], ["PPK"]], 
 		 [["FF FNP9"], ["0:25:00"], ["FF FNP9"]], 
-		 [["MP-446"], ["0:25:00"], ["MP-446"]], 
-		 [["<span class='unreleased'>Gr USPコンパクト</span>"], ["<span class='unreleased'>0:28:00</span>"], ["Gr USPコンパクト"]], 
-		 [["<span class='unreleased'>ブレン・テン</span>"], ["<span class='unreleased'>0:28:00</span>"], ["ブレン・テン"]]],
+		 [["Gr USPコンパクト"], ["0:28:00"], ["Gr USPコンパクト"]], 
+		 [["ブレン・テン"], ["0:28:00"], ["ブレン・テン"]]],
 
 		//3 star
 		[[["P08"], ["0:30:00"], ["P08"]], 
