@@ -16,7 +16,7 @@ var HG1 = [
 		[[["P08"], ["0:30:00"], ["P08"]], 
 		 [["C96"], ["0:30:00"], ["C96"]], 
 	 	 [["Type 92"], ["0:35:00"], ["Type_92"]], 
-		 [["P99</span>"], ["0:35:00"], ["P99"]], 
+		 [["P99"], ["0:35:00"], ["P99"]], 
 		 [["M9"], ["0:40:00"], ["M9"]], 
 		 [["Astra Revolver"], ["0:40:00"], ["Astra_Revolver"]], 
 		 [["Makarov"], ["0:40:00"], ["Makarov"]], 
@@ -28,19 +28,19 @@ var HG1 = [
 		 [["P7"], ["0:55:00"], ["P7"]]],
 
 		//5 star
-		[[["<span class='unreleased'>NZ75</span>"], ["<span class='unreleased'>1:05:00</span>"], ["NZ75"]],
+		[[["<span class='uncraftable'>NZ75</span>"], ["<span class='uncraftable'>1:05:00</span>"], ["NZ75"]],
 		 [["Grizzly MkV"], ["1:10:00"], ["Grizzly_MkV"]]]];
 
 
 var HG2 = [
 		//4 star
-		[[["<span class='unreleased'>Spitfire</span>"], ["<span class='unreleased'>0:52:00</span>"], ["Spitfire"]],
+		[[["Spitfire"], ["0:52:00"], ["Spitfire"]],
 		 [["<span class='unreleased'>K5</span>"], ["<span class='unreleased'>0:53:00</span>"], ["K5"]], 
 		 [["Stechkin"], ["0:55:00"], ["Stechkin"]]],
 
 		//5 star
 		[[["Welrod MkII"], ["1:00:00"], ["Welrod_MkII"]], 
-		 [["<span class='unreleased'>Contender</span>"], ["<span class='unreleased'>1:02:00</span>"], ["Contender"]], 
+		 [["Contender"], ["1:02:00"], ["Contender"]], 
 		 [["M950A"], ["1:05:00"], ["M950A"]]]];
 
 
@@ -121,7 +121,7 @@ var AR2 = [
 		//4 star
 		[[["TAR-21"], ["3:30:00"], ["TAR-21"]], 
 		 [["G36"], ["3:40:00"], ["G36"]], 
-		 [["<span class='unreleased'>Ribeyrolles</span>"], ["<span class='unreleased'>3:40:00</span>"], ["Ribeyrolles"]]],
+		 [["Ribeyrolles"], ["3:40:00"], ["Ribeyrolles"]]],
 
 		//5 star
 		[[["FAL"], ["3:45:00"], ["FAL"]],
@@ -132,7 +132,7 @@ var AR2 = [
 		 [["<span class='unreleased'>MDR</span>"], ["<span class='unreleased'>3:53:00</span>"], ["MDR"]], 
 		 [["<span class='unreleased'>RFB</span>"], ["<span class='unreleased'>3:58:00</span>"], ["RFB"]], 
 		 [["G41"], ["4:05:00"], ["G41"]], 
-		 [["<span class='unreleased'>Zas M21</span>"], ["<span class='unreleased'>4:05:00</span>"], ["Zas_M21"]], 
+		 [["Zas M21"], ["4:05:00"], ["Zas_M21"]], 
 		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]], 
 		 [["<span class='unreleased'>AK-12</span>"], ["<span class='unreleased'>4:12:00</span>"], ["AK-12"]]]];
 
@@ -202,7 +202,7 @@ var MG1 = [
 
 var MG2 = [
 		//4 star
-		[[["<span class='unreleased'>AEK-999</span>"],  ["<span class='unreleased'>6:20:00</span>"], ["AEK-999"]],
+		[[["AEK-999"],  ["6:20:00"], ["AEK-999"]],
 		 [["<span class='unreleased'>Ameli</span>"], ["<span class='unreleased'>6:25:00</span>"], ["Ameli"]],
 		 [["PK"], ["6:30:00"], ["PK"]]],
 
@@ -277,7 +277,7 @@ var HAR2 = [
 		//4 star
 		[[["TAR-21"], ["3:30:00"], ["TAR-21"]], 
 		 [["G36"], ["3:40:00"], ["G36"]], 
-		 [["<span class='unreleased'>Ribeyrolles</span>"], ["<span class='unreleased'>3:40:00</span>"], ["Ribeyrolles"]]],
+		 [["Ribeyrolles"], ["3:40:00"], ["Ribeyrolles"]]],
 
 		//5 star
 		[[["FAL"], ["3:45:00"], ["FAL"]],
@@ -288,7 +288,7 @@ var HAR2 = [
 		 [["<span class='unreleased'>MDR</span>"], ["<span class='unreleased'>3:53:00</span>"], ["MDR"]], 
 		 [["<span class='unreleased'>RFB</span>"], ["<span class='unreleased'>3:58:00</span>"], ["RFB"]], 
 		 [["G41"], ["4:05:00"], ["G41"]], 
-		 [["<span class='unreleased'>Zas M21</span>"], ["<span class='unreleased'>4:05:00</span>"], ["Zas_M21"]], 
+		 [["Zas M21"], ["4:05:00"], ["Zas_M21"]], 
 		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]], 
 		 [["<span class='unreleased'>AK-12</span>"], ["<span class='unreleased'>4:12:00</span>"], ["AK-12"]]]];
 
@@ -347,7 +347,7 @@ var HMG1 = [
 
 var HMG2 = [
 		//4 star
-		[[["<span class='unreleased'>AEK-999</span>"],  ["<span class='unreleased'>6:20:00</span>"], ["AEK-999"]],
+		[[["AEK-999"],  ["6:20:00"], ["AEK-999"]],
 		 [["<span class='unreleased'>Ameli</span>"], ["<span class='unreleased'>6:25:00</span>"], ["Ameli"]],
 		 [["PK"], ["6:30:00"], ["PK"]]],
 
