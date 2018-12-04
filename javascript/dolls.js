@@ -77,7 +77,7 @@ var SMG2 = [
 		//4 star
 		[[["UMP9"], ["2:15:00"], ["UMP9"]], 
 		 [["UMP45"], ["2:15:00"], ["UMP45"]],
-		 [["<span class='unreleased'>Shipka</span>"], ["<span class='unreleased'>2:18:00</span>"], ["Shipka"]], 
+		 [["Shipka"], ["2:18:00"], ["Shipka"]], 
 		 [["<span class='unreleased'>PP-19-01</span>"], ["<span class='unreleased'>2:18:00</span>"], ["PP-19-01"]], 
 		 [["PP-90"], ["2:20:00"], ["PP-90"]]],
 
@@ -125,12 +125,12 @@ var AR2 = [
 
 		//5 star
 		[[["FAL"], ["3:45:00"], ["FAL"]],
-		 [["<span class='unreleased'>T91</span>"], ["<span class='unreleased'>3:48:00</span>"], ["T91"]], 
+		 [["T91"], ["3:48:00"], ["T91"]], 
 		 [["Type 95"], ["3:50:00"], ["Type_95"]], 
 		 [["Type 97"], ["3:50:00"], ["Type_97"]], 
 		 [["<span class='unreleased'>K2</span>"], ["<span class='unreleased'>3:52:00</span>"], ["K2"]], 
 		 [["<span class='unreleased'>MDR</span>"], ["<span class='unreleased'>3:53:00</span>"], ["MDR"]], 
-		 [["<span class='unreleased'>RFB</span>"], ["<span class='unreleased'>3:58:00</span>"], ["RFB"]], 
+		 [["RFB"], ["3:58:00"], ["RFB"]], 
 		 [["G41"], ["4:05:00"], ["G41"]], 
 		 [["Zas M21"], ["4:05:00"], ["Zas_M21"]], 
 		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]], 
@@ -165,7 +165,7 @@ var RF2 = [
 		[[["Hanyang T88"], ["3:50:00"], ["Hanyang_Type_88"]]],
 
 		//4 star
-		[[["<span class='unreleased'>T-5000</span>"], ["<span class='unreleased'>4:10:00</span>"], ["T-5000"]],
+		[[["T-5000"], ["4:10:00"], ["T-5000"]],
 		 [["SVD"], ["4:15:00"], ["SVD"]]],
 
 		//5 star
@@ -203,7 +203,7 @@ var MG1 = [
 var MG2 = [
 		//4 star
 		[[["AEK-999"],  ["6:20:00"], ["AEK-999"]],
-		 [["<span class='unreleased'>Ameli</span>"], ["<span class='unreleased'>6:25:00</span>"], ["Ameli"]],
+		 [["Ameli"], ["6:25:00"], ["Ameli"]],
 		 [["PK"], ["6:30:00"], ["PK"]]],
 
 		//5 star
@@ -240,7 +240,7 @@ var HSMG2 = [
 		//4 star
 		[[["UMP9"], ["2:15:00"], ["UMP9"]], 
 		 [["UMP45"], ["2:15:00"], ["UMP45"]],
-		 [["<span class='unreleased'>Shipka</span>"], ["<span class='unreleased'>2:18:00</span>"], ["Shipka"]], 
+		 [["Shipka"], ["2:18:00"], ["Shipka"]], 
 		 [["<span class='unreleased'>PP-19-01</span>"], ["<span class='unreleased'>2:18:00</span>"], ["PP-19-01"]], 
 		 [["PP-90"], ["2:20:00"], ["PP-90"]]],
 
@@ -281,12 +281,12 @@ var HAR2 = [
 
 		//5 star
 		[[["FAL"], ["3:45:00"], ["FAL"]],
-		 [["<span class='unreleased'>T91</span>"], ["<span class='unreleased'>3:48:00</span>"], ["T91"]], 
+		 [["T91"], ["3:48:00"], ["T91"]], 
 		 [["Type 95"], ["3:50:00"], ["Type_95"]], 
 		 [["Type 97"], ["3:50:00"], ["Type_97"]], 
 		 [["<span class='unreleased'>K2</span>"], ["<span class='unreleased'>3:52:00</span>"], ["K2"]], 
 		 [["<span class='unreleased'>MDR</span>"], ["<span class='unreleased'>3:53:00</span>"], ["MDR"]], 
-		 [["<span class='unreleased'>RFB</span>"], ["<span class='unreleased'>3:58:00</span>"], ["RFB"]], 
+		 [["RFB"], ["3:58:00"], ["RFB"]], 
 		 [["G41"], ["4:05:00"], ["G41"]], 
 		 [["Zas M21"], ["4:05:00"], ["Zas_M21"]], 
 		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]], 
@@ -314,7 +314,7 @@ var HRF2 = [
 		[[["Hanyang T88"], ["3:50:00"], ["Hanyang_Type_88"]]],
 
 		//4 star
-		[[["<span class='unreleased'>T-5000</span>"], ["<span class='unreleased'>4:10:00</span>"], ["T-5000"]],
+		[[["T-5000"], ["4:10:00"], ["T-5000"]],
 		 [["SVD"], ["4:15:00"], ["SVD"]],
 		 [["<span class='uncraftable'>PSG-1 (?)</span>"], ["<span class='uncraftable'>4:20:00</span>"], ["PSG-1"]],
 		 [["<span class='unreleased'>PzB 39</span>"], ["<span class='unreleased'>4:30:00</span>"], ["PzB_39"]]],
@@ -348,7 +348,7 @@ var HMG1 = [
 var HMG2 = [
 		//4 star
 		[[["AEK-999"],  ["6:20:00"], ["AEK-999"]],
-		 [["<span class='unreleased'>Ameli</span>"], ["<span class='unreleased'>6:25:00</span>"], ["Ameli"]],
+		 [["Ameli"], ["6:25:00"], ["Ameli"]],
 		 [["PK"], ["6:30:00"], ["PK"]]],
 
 		//5 star
