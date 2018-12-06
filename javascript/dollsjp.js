@@ -15,7 +15,7 @@ var HG1 = [
 		[[["P08"], ["0:30:00"], ["P08"]], 
 		 [["C96"], ["0:30:00"], ["C96"]], 
 	 	 [["92式"], ["0:35:00"], ["92式"]], 
-		 [["<span class='unreleased'>P99</span>"], ["<span class='unreleased'>0:35:00</span>"], ["P99"]], 
+		 [["P99"], ["0:35:00"], ["P99"]], 
 		 [["M9"], ["0:40:00"], ["M9"]], 
 		 [["アストラ"], ["0:40:00"], ["アストラ"]], 
 		 [["マカロフ"], ["0:40:00"], ["マカロフ"]], 
@@ -80,7 +80,8 @@ var SMG2 = [
 		 [["<span class='unreleased'>PP-90</span>"], ["<span class='unreleased'>2:20:00</span>"], ["PP-90"]]],
 
 		 //5 star
-		[[["スオミ"], ["2:25:00"], ["スオミ"]],
+		[[["一〇〇式 (?)"], ["2:19:00"], ["一〇〇式"]],
+		 [["スオミ"], ["2:25:00"], ["スオミ"]],
 		 [["<span class='unreleased'>C-MS</span>"], ["<span class='unreleased'>2:28:00</span>"], ["C-MS"]],
 		 [["Gr G36C"], ["2:30:00"], ["Gr G36C"]], 
 		 [["SR-3MP"], ["2:33:00"], ["SR-3MP"]], 
@@ -130,7 +131,8 @@ var AR2 = [
 		 [["<span class='unreleased'>MDR</span>"], ["<span class='unreleased'>3:53:00</span>"], ["MDR"]], 
 		 [["Am RFB"], ["3:58:00"], ["Am RFB"]], 
 		 [["Gr G41"], ["4:05:00"], ["Gr G41"]], 
-		 [["<span class='unreleased'>Zas M21</span>"], ["<span class='unreleased'>4:05:00</span>"], ["Zas M21"]], 
+		 [["<span class='unreleased'>Zas M21</span>"], ["<span class='unreleased'>4:05:00</span>"], ["Zas M21"]],
+		 [["64式自 (?)"], ["4:06:00"], ["64式自"]], 
 		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]], 
 		 [["<span class='unreleased'>AK-12</span>"], ["<span class='unreleased'>4:12:00</span>"], ["AK-12"]]]];
 
@@ -167,9 +169,9 @@ var RF2 = [
 		 [["SVD"], ["4:15:00"], ["SVD"]]],
 
 		//5 star
-		[[["<span class='unreleased'>カルカノM1891</span>"], ["<span class='unreleased'>4:38:00</span>"], ["カルカノM1891"]],
+		[[["カルカノM1891"], ["4:38:00"], ["カルカノM1891"]],
 		 [["Kar98k"], ["4:40:00"], ["Kar98k"]], 
-		 [["<span class='unreleased'>カルカノM91_38</span>"], ["<span class='unreleased'>4:42:00</span>"], ["カルカノM91_38"]], 
+		 [["カルカノM91_38"], ["4:42:00"], ["カルカノM91_38"]], 
 		 [["<span class='unreleased'>IWS 2000</span>"], ["<span class='unreleased'>4:52:00</span>"], ["IWS 2000"]], 
 		 [["M99"], ["4:55:00"], ["M99"]], 
 		 [["リー・エンフィールド"], ["5:00:00"], ["リー・エンフィールド"]]]];
@@ -243,7 +245,8 @@ var HSMG2 = [
 		 [["<span class='unreleased'>PP-90</span>"], ["<span class='unreleased'>2:20:00</span>"], ["PP-90"]]],
 
 		 //5 star
-		[[["スオミ"], ["2:25:00"], ["スオミ"]],
+		[[["一〇〇式 (?)"], ["2:19:00"], ["一〇〇式"]],
+		 [["スオミ"], ["2:25:00"], ["スオミ"]],
 		 [["<span class='unreleased'>C-MS</span>"], ["<span class='unreleased'>2:28:00</span>"], ["C-MS"]],
 		 [["Gr G36C"], ["2:30:00"], ["Gr G36C"]], 
 		 [["SR-3MP"], ["2:33:00"], ["SR-3MP"]], 
@@ -287,6 +290,7 @@ var HAR2 = [
 		 [["Am RFB"], ["3:58:00"], ["Am RFB"]], 
 		 [["Gr G41"], ["4:05:00"], ["Gr G41"]], 
 		 [["<span class='unreleased'>Zas M21</span>"], ["<span class='unreleased'>4:05:00</span>"], ["Zas M21"]], 
+		 [["64式自 (?)"], ["4:06:00"], ["64式自"]], 
 		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]], 
 		 [["<span class='unreleased'>AK-12</span>"], ["<span class='unreleased'>4:12:00</span>"], ["AK-12"]]]];
 
@@ -318,9 +322,9 @@ var HRF2 = [
 		 [["<span class='unreleased'>PzB39</span>"], ["<span class='unreleased'>4:30:00</span>"], ["PzB39"]]],
 
 		//5 star
-		[[["<span class='unreleased'>カルカノM1891</span>"], ["<span class='unreleased'>4:38:00</span>"], ["カルカノM1891"]],
+		[[["カルカノM1891"], ["4:38:00"], ["カルカノM1891"]],
 		 [["Kar98k"], ["4:40:00"], ["Kar98k"]], 
-		 [["<span class='unreleased'>カルカノM91_38</span>"], ["<span class='unreleased'>4:42:00</span>"], ["カルカノM91_38"]], 
+		 [["カルカノM91_38"], ["4:42:00"], ["カルカノM91_38"]], 
 		 [["<span class='unreleased'>IWS 2000</span>"], ["<span class='unreleased'>4:52:00</span>"], ["IWS 2000"]], 
 		 [["M99"], ["4:55:00"], ["M99"]], 
 		 [["リー・エンフィールド"], ["5:00:00"], ["リー・エンフィールド"]]]];

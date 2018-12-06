@@ -82,7 +82,8 @@ var SMG2 = [
 		 [["PP-90"], ["2:20:00"], ["PP-90"]]],
 
 		 //5 star
-		[[["Suomi"], ["2:25:00"], ["Suomi"]],
+		[[["<span class='unreleased'>Type 100 (?)</span>"], ["<span class='unreleased'>2:19:00</span>"], ["Type_100"]],
+		 [["Suomi"], ["2:25:00"], ["Suomi"]],
 		 [["<span class='unreleased'>C-MS</span>"], ["<span class='unreleased'>2:28:00</span>"], ["C-MS"]],
 		 [["G36C"], ["2:30:00"], ["G36C"]], 
 		 [["SR-3MP"], ["2:33:00"], ["SR-3MP"]], 
@@ -133,6 +134,7 @@ var AR2 = [
 		 [["RFB"], ["3:58:00"], ["RFB"]], 
 		 [["G41"], ["4:05:00"], ["G41"]], 
 		 [["Zas M21"], ["4:05:00"], ["Zas_M21"]], 
+		 [["<span class='unreleased'>Howa Type 64 (?)</span>"], ["<span class='unreleased'>4:06:00</span>"], ["Howa_Type_64"]], 
 		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]], 
 		 [["<span class='unreleased'>AK-12</span>"], ["<span class='unreleased'>4:12:00</span>"], ["AK-12"]]]];
 
@@ -245,7 +247,8 @@ var HSMG2 = [
 		 [["PP-90"], ["2:20:00"], ["PP-90"]]],
 
 		 //5 star
-		[[["Suomi"], ["2:25:00"], ["Suomi"]],
+		[[["<span class='unreleased'>Type 100 (?)</span>"], ["<span class='unreleased'>2:19:00</span>"], ["Type_100"]],
+		 [["Suomi"], ["2:25:00"], ["Suomi"]],
 		 [["<span class='unreleased'>C-MS</span>"], ["<span class='unreleased'>2:28:00</span>"], ["C-MS"]],
 		 [["G36C"], ["2:30:00"], ["G36C"]], 
 		 [["SR-3MP"], ["2:33:00"], ["SR-3MP"]], 
@@ -289,6 +292,7 @@ var HAR2 = [
 		 [["RFB"], ["3:58:00"], ["RFB"]], 
 		 [["G41"], ["4:05:00"], ["G41"]], 
 		 [["Zas M21"], ["4:05:00"], ["Zas_M21"]], 
+		 [["<span class='unreleased'>Howa Type 64 (?)</span>"], ["<span class='unreleased'>4:06:00</span>"], ["Howa_Type_64"]], 
 		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]], 
 		 [["<span class='unreleased'>AK-12</span>"], ["<span class='unreleased'>4:12:00</span>"], ["AK-12"]]]];
 
