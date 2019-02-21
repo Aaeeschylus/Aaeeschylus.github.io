@@ -34,12 +34,12 @@ var HG1 = [
 var HG2 = [
 		//4 star
 		[[["<span class='unreleased'>Spitfire</span>"], ["<span class='unreleased'>0:52:00</span>"], ["Spitfire"]],
-		 [["<span class='unreleased'>K5</span>"], ["<span class='unreleased'>0:53:00</span>"], ["K5"]], 
+		 [["K5"], ["0:53:00"], ["K5"]], 
 		 [["スチェッキン"], ["0:55:00"], ["スチェッキン"]]],
 
 		//5 star
 		[[["ウェルロッドMkII"], ["1:00:00"], ["ウェルロッドMkII"]], 
-		 [["<span class='unreleased'>コンテンダー</span>"], ["<span class='unreleased'>1:02:00</span>"], ["コンテンダー"]], 
+		 [["コンテンダー"], ["1:02:00"], ["コンテンダー"]], 
 		 [["M950A"], ["1:05:00"], ["M950A"]]]];
 
 
@@ -77,7 +77,7 @@ var SMG2 = [
 		 [["UMP45"], ["2:15:00"], ["UMP45"]],
 		 [["<span class='unreleased'>シプカ</span>"], ["<span class='unreleased'>2:18:00</span>"], ["シプカ"]], 
 		 [["<span class='unreleased'>PP-19-01</span>"], ["<span class='unreleased'>2:18:00</span>"], ["PP-19-01"]], 
-		 [["<span class='unreleased'>PP-90</span>"], ["<span class='unreleased'>2:20:00</span>"], ["PP-90"]]],
+		 [["PP-90"], ["2:20:00"], ["PP-90"]]],
 
 		 //5 star
 		[[["一〇〇式 (?)"], ["2:19:00"], ["一〇〇式"]],
@@ -127,7 +127,7 @@ var AR2 = [
 		 [["<span class='unreleased'>T91</span>"], ["<span class='unreleased'>3:48:00</span>"], ["T91"]], 
 		 [["95式"], ["3:50:00"], ["95式"]], 
 		 [["97式"], ["3:50:00"], ["97式"]], 
-		 [["<span class='unreleased'>K2</span>"], ["<span class='unreleased'>3:52:00</span>"], ["K2"]], 
+		 [["K2"], ["3:52:00"], ["K2"]], 
 		 [["<span class='unreleased'>MDR</span>"], ["<span class='unreleased'>3:53:00</span>"], ["MDR"]], 
 		 [["Am RFB"], ["3:58:00"], ["Am RFB"]], 
 		 [["Gr G41"], ["4:05:00"], ["Gr G41"]], 
@@ -203,7 +203,7 @@ var MG1 = [
 var MG2 = [
 		//4 star
 		[[["AEK-999"],  ["6:20:00"], ["AEK-999"]],
-		 [["<span class='unreleased'>Ameli</span>"], ["<span class='unreleased'>6:25:00</span>"], ["Ameli"]],
+		 [["Ameli"], ["6:25:00"], ["Ameli"]],
 		 [["PK"], ["6:30:00"], ["PK"]]],
 
 		//5 star
@@ -242,7 +242,7 @@ var HSMG2 = [
 		 [["UMP45"], ["2:15:00"], ["UMP45"]],
 		 [["<span class='unreleased'>シプカ</span>"], ["<span class='unreleased'>2:18:00</span>"], ["シプカ"]], 
 		 [["<span class='unreleased'>PP-19-01</span>"], ["<span class='unreleased'>2:18:00</span>"], ["PP-19-01"]], 
-		 [["<span class='unreleased'>PP-90</span>"], ["<span class='unreleased'>2:20:00</span>"], ["PP-90"]]],
+		 [["PP-90"], ["2:20:00"], ["PP-90"]]],
 
 		 //5 star
 		[[["一〇〇式 (?)"], ["2:19:00"], ["一〇〇式"]],
@@ -285,7 +285,7 @@ var HAR2 = [
 		 [["<span class='unreleased'>T91</span>"], ["<span class='unreleased'>3:48:00</span>"], ["T91"]], 
 		 [["95式"], ["3:50:00"], ["95式"]], 
 		 [["97式"], ["3:50:00"], ["97式"]], 
-		 [["<span class='unreleased'>K2</span>"], ["<span class='unreleased'>3:52:00</span>"], ["K2"]], 
+		 [["K2"], ["3:52:00"], ["K2"]], 
 		 [["<span class='unreleased'>MDR</span>"], ["<span class='unreleased'>3:53:00</span>"], ["MDR"]], 
 		 [["Am RFB"], ["3:58:00"], ["Am RFB"]], 
 		 [["Gr G41"], ["4:05:00"], ["Gr G41"]], 
@@ -350,7 +350,7 @@ var HMG1 = [
 var HMG2 = [
 		//4 star
 		[[["AEK-999"],  ["6:20:00"], ["AEK-999"]],
-		 [["<span class='unreleased'>Ameli</span>"], ["<span class='unreleased'>6:25:00</span>"], ["Ameli"]],
+		 [["Ameli"], ["6:25:00"], ["Ameli"]],
 		 [["PK"], ["6:30:00"], ["PK"]]],
 
 		//5 star
