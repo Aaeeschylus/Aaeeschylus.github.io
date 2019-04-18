@@ -75,18 +75,18 @@ var SMG2 = [
 		//4 star
 		[[["UMP9"], ["2:15:00"], ["UMP9"]], 
 		 [["UMP45"], ["2:15:00"], ["UMP45"]],
-		 [["<span class='unreleased'>シプカ</span>"], ["<span class='unreleased'>2:18:00</span>"], ["シプカ"]], 
+		 [["シプカ"], ["2:18:00"], ["シプカ"]], 
 		 [["<span class='unreleased'>PP-19-01</span>"], ["<span class='unreleased'>2:18:00</span>"], ["PP-19-01"]], 
 		 [["PP-90"], ["2:20:00"], ["PP-90"]]],
 
 		 //5 star
-		[[["一〇〇式 (?)"], ["2:19:00"], ["一〇〇式"]],
+		[[["一〇〇式"], ["2:19:00"], ["一〇〇式"]],
 		 [["スオミ"], ["2:25:00"], ["スオミ"]],
 		 [["<span class='unreleased'>C-MS</span>"], ["<span class='unreleased'>2:28:00</span>"], ["C-MS"]],
 		 [["Gr G36C"], ["2:30:00"], ["Gr G36C"]], 
 		 [["SR-3MP"], ["2:33:00"], ["SR-3MP"]], 
 		 [["Vector"], ["2:35:00"], ["Vector"]], 
-		 [["<span class='unreleased'>79式</span>"], ["<span class='unreleased'>2:35:00</span>"], ["79式"]]]];
+		 [["79式"], ["2:35:00"], ["79式"]]]];
 
 
 var AR1 = [
@@ -131,7 +131,7 @@ var AR2 = [
 		 [["<span class='unreleased'>MDR</span>"], ["<span class='unreleased'>3:53:00</span>"], ["MDR"]], 
 		 [["Am RFB"], ["3:58:00"], ["Am RFB"]], 
 		 [["Gr G41"], ["4:05:00"], ["Gr G41"]], 
-		 [["<span class='unreleased'>Zas M21</span>"], ["<span class='unreleased'>4:05:00</span>"], ["Zas M21"]],
+		 [["Zas M21"], ["4:05:00"], ["Zas M21"]],
 		 [["64式自 (?)"], ["4:06:00"], ["64式自"]], 
 		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]], 
 		 [["<span class='unreleased'>AK-12</span>"], ["<span class='unreleased'>4:12:00</span>"], ["AK-12"]]]];
@@ -165,7 +165,7 @@ var RF2 = [
 		[[["漢陽88式"], ["3:50:00"], ["漢陽88式"]]],
 
 		//4 star
-		[[["<span class='unreleased'>T-5000</span>"], ["<span class='unreleased'>4:10:00</span>"], ["T-5000"]],
+		[[["T-5000"], ["4:10:00"], ["T-5000"]],
 		 [["SVD"], ["4:15:00"], ["SVD"]]],
 
 		//5 star
@@ -240,18 +240,18 @@ var HSMG2 = [
 		//4 star
 		[[["UMP9"], ["2:15:00"], ["UMP9"]], 
 		 [["UMP45"], ["2:15:00"], ["UMP45"]],
-		 [["<span class='unreleased'>シプカ</span>"], ["<span class='unreleased'>2:18:00</span>"], ["シプカ"]], 
+		 [["シプカ"], ["2:18:00"], ["シプカ"]], 
 		 [["<span class='unreleased'>PP-19-01</span>"], ["<span class='unreleased'>2:18:00</span>"], ["PP-19-01"]], 
 		 [["PP-90"], ["2:20:00"], ["PP-90"]]],
 
 		 //5 star
-		[[["一〇〇式 (?)"], ["2:19:00"], ["一〇〇式"]],
+		[[["一〇〇式"], ["2:19:00"], ["一〇〇式"]],
 		 [["スオミ"], ["2:25:00"], ["スオミ"]],
 		 [["<span class='unreleased'>C-MS</span>"], ["<span class='unreleased'>2:28:00</span>"], ["C-MS"]],
 		 [["Gr G36C"], ["2:30:00"], ["Gr G36C"]], 
 		 [["SR-3MP"], ["2:33:00"], ["SR-3MP"]], 
 		 [["Vector"], ["2:35:00"], ["Vector"]], 
-		 [["<span class='unreleased'>79式</span>"], ["<span class='unreleased'>2:35:00</span>"], ["79式"]]]];
+		 [["79式"], ["2:35:00"], ["79式"]]]];
 
 
 var HAR1 = [
@@ -289,7 +289,7 @@ var HAR2 = [
 		 [["<span class='unreleased'>MDR</span>"], ["<span class='unreleased'>3:53:00</span>"], ["MDR"]], 
 		 [["Am RFB"], ["3:58:00"], ["Am RFB"]], 
 		 [["Gr G41"], ["4:05:00"], ["Gr G41"]], 
-		 [["<span class='unreleased'>Zas M21</span>"], ["<span class='unreleased'>4:05:00</span>"], ["Zas M21"]], 
+		 [["Zas M21"], ["4:05:00"], ["Zas M21"]], 
 		 [["64式自 (?)"], ["4:06:00"], ["64式自"]], 
 		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]], 
 		 [["<span class='unreleased'>AK-12</span>"], ["<span class='unreleased'>4:12:00</span>"], ["AK-12"]]]];
@@ -316,7 +316,7 @@ var HRF2 = [
 		[[["漢陽88式"], ["3:50:00"], ["漢陽88式"]]],
 
 		//4 star
-		[[["<span class='unreleased'>T-5000</span>"], ["<span class='unreleased'>4:10:00</span>"], ["T-5000"]],
+		[[["T-5000"], ["4:10:00"], ["T-5000"]],
 		 [["SVD"], ["4:15:00"], ["SVD"]],
 		 [["<span class='uncraftable'>Gr PSG-1</span>"], ["<span class='uncraftable'>4:20:00</span>"], ["Gr PSG-1"]],
 		 [["<span class='unreleased'>PzB39</span>"], ["<span class='unreleased'>4:30:00</span>"], ["PzB39"]]],
@@ -366,7 +366,7 @@ var HSG1 = [
 
 		//4 Star
 		[[["M590"], ["7:40:00"], ["M590"]],
-		 [["<span class='unreleased'>SPAS-12</span>"], ["<span class='unreleased'>7:40:00</span>"], ["SPAS-12"]]],
+		 [["SPAS-12"], ["7:40:00"], ["SPAS-12"]]],
 
 		//5 Star
 		[[["Am KSG"], ["8:00:00"], ["Am KSG"]]]];
@@ -382,11 +382,11 @@ var HSG2 = [
 		[
 		 [["M1014"], ["7:14:00"], ["M1014"]],
 		 [["M37"], [" 7:45:00"], ["M37"]],
-		 [["<span class='unreleased'>Super-Shorty</span>"], ["<span class='unreleased'>7:50:00</span>"], ["Super-Shorty"]], 
+		 [["Super-Shorty"], ["7:50:00"], ["Super-Shorty"]], 
 		 [["<span class='unreleased'>USAS-12</span>"], ["<span class='unreleased'>7:55:00</span>"], ["USAS-12"]]],
 
 		//5 Star
 		[[["<span class='unreleased'>Saiga-12</span>"], ["<span class='unreleased'>8:05:00</span>"], ["Saiga-12"]],
 		 [["<span class='unreleased'>FP6</span>"], ["<span class='unreleased'>8:06:00</span>"], ["FP6"]],
 		 [["<span class='unreleased'>S.A.T.8</span>"], ["<span class='unreleased'>8:10:00</span>"], ["S.A.T.8"]],
-		 [["<span class='unreleased'>AA12</span>"], ["<span class='unreleased'>8:12:00</span>"], ["AA12"]]]];
+		 [["AA-12"], ["8:12:00"], ["AA12"]]]];
