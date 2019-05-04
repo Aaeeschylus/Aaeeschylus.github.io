@@ -58,7 +58,7 @@ var SMG1 = [
 
 		//3 star
 		[[["Micro Uzi"], ["1:40:00"], ["Micro_Uzi"]], 
-		 [["<span class='unreleased'>F1</span>"], ["<span class='unreleased'>1:50:00</span>"], ["F1"]],
+		 [["<span class='uncraftable'>F1</span>"], ["<span class='uncraftable'>1:50:00</span>"], ["F1"]],
 		 [["MAC-10"], ["2:00:00"], ["MAC-10"]],
 		 [["Skorpion"], ["2:00:00"], ["Skorpion"]], 
 		 [["PPS-43"], ["2:10:00"], ["PPS-43"]]],

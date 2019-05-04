@@ -32,7 +32,7 @@ function init() {
 
 function recipe_onclick() {
 	var parent = $(this).parent();
-	var ingreds = parent.children("td").map(function (i, e) { return parseFloat(e.textContent) });
+	var ingreds = parent.children("td").map(function (i, e) { return parseFloat(e.textContent); });
 	
 	select_ingreds(ingreds[0], ingreds[1], ingreds[2], ingreds[3]);
 }

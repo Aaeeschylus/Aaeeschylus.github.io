@@ -6,34 +6,36 @@
         <link rel="stylesheet" type="text/css" href="content.css">
         <script src="jquery.js"></script>
 
-         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124726330-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124726330-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
-          gtag('config', 'UA-124726330-1');
-        </script>
+		  gtag('config', 'UA-124726330-1');
+		</script>
+
+
 
         <script type="text/javascript" src="javascript/dollsjp.js"></script>
         <script type="text/javascript" src="javascript/mainjp.js"></script>
         <script type="text/javascript" src="javascript/heavyjp.js"></script>
     </head>
-    <body>
+        <body onload="init()">
         <div id="container">
             <div id="header">レシピ計算機</div>
             <div id="content">
                 <div class="selections">
-                    <div class="sub_selection radio_box radio_prod radio_prod_jp">
+                    <div class="sub_selection radio_box radio_prod" style="width:100px">
                         <label class="radio_prod">通常建造: <input type="radio" name="production" value="standard" onclick="prodRadioClicked()" checked></label>
                         <label class="radio_prod">大型建造: <input type="radio" name="production" value="heavy" onclick="prodRadioClicked()"></label>
                     </div>
-                    <div class="sub_selection check_box check_box_jp">
+                    <div class="sub_selection check_box" style="width:240px">
                         <label class="checklab">日本で実装されていない人形を隠す: <input type="checkbox" id="unreleasedChecker" onclick="checkboxClicked()"></label>
-                        <label class="checklab">日本で建造が不可能な人形を隠す: <input type="checkbox" id="uncraftChecker" onclick="checkboxClicked()"></label>
+                        <label class="checklab">日本で建造が不可能な人形を隠す: <input type="checkbox" id="uncraftChecker" onclick="checkboxClicked()" ></label>
                     </div>
-                    <div class="sub_selection">
+                    <div class="sub_selection" style="width:390px">
                         <div class="selection_title">レシピ</div>                        
                         <div class="resources">
                             <form novalidate>
@@ -52,15 +54,19 @@
                                 <div class="resource">
                                     <div class="resource_label"><img src="assets/gf_part.png" title="Parts"></div>
                                     <div class="resource_input"><input id="part" value="30" type="number" name="resourceInput" min="30" max="999" step="10"></div>                                
-                                </div>   
+                                </div>
+                                <div class="resource">
+                                    <div class="resource_label"><img src="assets/sigma.png" title="Total"></div>
+                                    <div class="resource_input" id="resource_tot">120</div>                                
+                                </div>
                             </form>                        
                         </div>                      
                     </div>
-                    <div class="sub_selection radio_box radio_tier">
+                    <div class="sub_selection radio_box radio_tier" style="width:120px">
                         <label class="radio_prod">Low/Mid Tier: <input type="radio" name="tier" value="low" onclick="tierRadioClicked()" checked></label>
                         <label class="radio_prod">High Tier: <input type="radio" name="tier" value="high" onclick="tierRadioClicked()"></label>
                     </div>
-                    <div class="sub_selection calc_button">
+                    <div class="sub_selection calc_button" style="width:120px">
                         <div class="calculate_box">
                             <div class="calculate_button standard_button">計算する</div>
                             <div class="calculate_button heavy_button">計算する</div>
@@ -92,147 +98,271 @@
         </div>  
 
         <div id="side_table">
-            <table id="standard_rules_table">
+            <table id="standard_rules_table" class="rules_table">
                 <thead>
                     <tr>
-                        <th colspan="4" id="table_title">レシピの基本</th>
+                        <th colspan="7" class="table_title">レシピの基本</th>
                     </tr>
                     <tr>
-                        <th style="width:15%">銃種</th>
-                        <th style="width:10%">セット</th>
-                        <th style="width:37.5%">最小資源</th>
-                        <th style="width:37.5%">最大資源</th>
+                        <th rowspan="2" style="width:15%">銃種</th>
+                        <th rowspan="2" style="width:10%">セット</th>
+                        <th colspan="4" style="width:37.5%">最小資源</th>
+                        <th rowspan="2" style="width:37.5%">最大資源</th>
+                    </tr>
+                    <tr>
+                       
+                        <th><img src="assets/gf_manpower.png" title="Manpower"></th>
+                        <th><img src="assets/gf_ammo.png" title="Ammo"></th>
+                        <th><img src="assets/gf_ration.png" title="Ration"></th>
+                        <th><img src="assets/gf_part.png" title="Parts"></th>    
+                                                
+
                     </tr>
                 </thead>
+                   
 
                 <tbody>
-                    <tr>
-                        <td rowspan="2">HG</td>
-                        <td>1</td>
-                        <td id="HG1">30 / 30 / 30 / 30</td>
-                        <td rowspan="2" id="maxHG">全資源の合計値が920以下</td>
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">HG</th>
+                        <th>1</th>
+                        
+                        <td>30</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>30</td>
+                        
+                        <th rowspan="2" class="preset" onclick="select_ingreds(230,230,230,230)">全資源の合計値が920以下</th>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="HG2">130 / 130 / 130 / 30</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>130</td>
+                        <td>130</td>
+                        <td>130</td>
+                        <td>30</td>
                     </tr>
-                    <tr>
-                        <td rowspan="2">SMG</td>
-                        <td>1</td>
-                        <td id="SMG1">30 / 30 / 30 / 30</td>
-                        <td rowspan="8" class="max">999 / 999 / 999 / 999</td>
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">SMG</th>
+                        <th>1</th>
+                        
+                        <td>30</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>30</td>
+                        
+                        <th rowspan="8" class="preset" onclick="select_ingreds(999,999,999,999)">999 / 999 / 999 / 999</th>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="SMG2">400 / 400 / 30 / 30</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>400</td>
+                        <td>400</td>
+                        <td>30</td>
+                        <td>30</td>
                     </tr>
-                    <tr>
-                        <td rowspan="2">AR</td>
-                        <td>1</td>
-                        <td id="AR1">全資源の合計値が800以下</td>
+                    
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">AR</th>
+                        <th>1</th>
+                        
+                        <td colspan=4 class="preset" onclick="select_ingreds(200,200,200,200)">全資源の合計値が800以下</td>
+                    </tr>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>30</td>
+                        <td>400</td>
+                        <td>400</td>
+                        <td>30</td>
+                    </tr>
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">RF</th>
+                        <th>1</th>
+                        
+                        <td>300</td>
+                        <td>30</td>
+                        <td>300</td>
+                        <td>30</td>
                         
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="AR2">30 / 400 / 400 / 30</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>400</td>
+                        <td>30</td>
+                        <td>400</td>
+                        <td>30</td>
                     </tr>
-                    <tr>
-                        <td rowspan="2">RF</td>
-                        <td>1</td>
-                        <td id="RF1">300 / 30 / 300 / 30</td>
+                                        
+                    <tr class="recipes">
+                        <th rowspan="2">MG</th>
+                        <th>1</th>
+                        
+                        <td>400</td>
+                        <td>600</td>
+                        <td>30</td>
+                        <td>300</td>
                         
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="RF2">400 / 30 / 400 / 30</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">MG</td>
-                        <td>1</td>
-                        <td id="MG1">400 / 600 / 30 / 300</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
                         
+                        <td>600</td>
+                        <td>600</td>
+                        <td>100</td>
+                        <td>400</td>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="MG2">600 / 600 / 100 / 400</td>
-                    </tr>
+                    
+                    
                 </tbody>
             </table>
-
-             <table id="heavy_rules_table">
+            
+            
+            <table id="heavy_rules_table" class="rules_table">
                 <thead>
                     <tr>
-                        <th colspan="4" id="table_title">レシピの基本</th>
+                        <th colspan="7" class="table_title">レシピの基本</th>
                     </tr>
                     <tr>
-                        <th style="width:15%">銃種</th>
-                        <th style="width:10%">セット</th>
-                        <th style="width:37.5%">最小資源</th>
-                        <th style="width:37.5%">最大資源</th>
+                        <th rowspan="2" style="width:15%">銃種</th>
+                        <th rowspan="2" style="width:10%">セット</th>
+                        <th colspan="4" style="width:37.5%">最小資源</th>
+                        <th rowspan="2" style="width:37.5%">最大資源</th>
+                    </tr>
+                    <tr>
+                       
+                        <th><img src="assets/gf_manpower.png" title="Manpower"></th>
+                        <th><img src="assets/gf_ammo.png" title="Ammo"></th>
+                        <th><img src="assets/gf_ration.png" title="Ration"></th>
+                        <th><img src="assets/gf_part.png" title="Parts"></th>    
+                                                
+
                     </tr>
                 </thead>
+                   
 
                 <tbody>
-                    <tr>
-                        <td rowspan="2">SMG</td>
-                        <td>1</td>
-                        <td id="HSMG1">1000 / 1000 / 1000 / 1000</td>
-                        <td rowspan="10" class="Hmax">9999 / 9999 / 9999 / 9999</td>
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">SMG</th>
+                        <th>1</th>
+                        
+                        <td>1000</td>
+                        <td>1000</td>
+                        <td>1000</td>
+                        <td>1000</td>
+                        
+                        <th rowspan="10" class="preset" onclick="select_ingreds(9999,9999,9999,9999)">9999 / 9999 / 9999 / 9999</th>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="HSMG2">4000 / 4000 / 1000 / 1000</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>4000</td>
+                        <td>4000</td>
+                        <td>1000</td>
+                        <td>1000</td>
                     </tr>
-                    <tr>
-                        <td rowspan="2">AR</td>
-                        <td>1</td>
-                        <td id="HAR1">1000 / 1000 / 1000 / 1000</td>
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">AR</th>
+                        <th>1</th>
+                        
+                        <td>1000</td>
+                        <td>1000</td>
+                        <td>1000</td>
+                        <td>1000</td>
+                        
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>1000</td>
+                        <td>4000</td>
+                        <td>4000</td>
+                        <td>1000</td>
+                    </tr>
+                    
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">RF</th>
+                        <th>1</th>
+                                                
+                        <td>3000</td>
+                        <td>1000</td>
+                        <td>3000</td>
+                        <td>1000</td>
+                    </tr>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>4000</td>
+                        <td>1000</td>
+                        <td>4000</td>
+                        <td>1000</td>
+                    </tr>
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">MG</th>
+                        <th>1</th>
+                        
+                        <td>4000</td>
+                        <td>6000</td>
+                        <td>1000</td>
+                        <td>3000</td>
                         
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="HAR2">1000 / 4000 / 4000 / 1000</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>6000</td>
+                        <td>6000</td>
+                        <td>1000</td>
+                        <td>4000</td>
                     </tr>
-                    <tr>
-                        <td rowspan="2">RF</td>
-                        <td>1</td>
-                        <td id="HRF1">3000 / 1000 / 3000 / 1000</td>
+                                        
+                    <tr class="recipes">
+                        <th rowspan="2">SG</th>
+                        <th>1</th>
+                        
+                        <td>4000</td>
+                        <td>1000</td>
+                        <td>6000</td>
+                        <td>3000</td>
                         
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="HRF2">4000 / 1000 / 4000 / 1000</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">MG</td>
-                        <td>1</td>
-                        <td id="HMG1">4000 / 6000 / 1000 / 3000</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
                         
+                        <td>6000</td>
+                        <td>1000</td>
+                        <td>6000</td>
+                        <td>4000</td>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="HMG2">6000 / 6000 / 1000 / 4000</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">SG</td>
-                        <td>1</td>
-                        <td id="HSG1">4000 / 1000 / 6000 / 3000</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="HSG2">6000 / 1000 / 6000 / 4000</td>
-                    </tr>
+                    
+                    
                 </tbody>
             </table>
 
 
             <div id="info">
                 <ul>
-                    <li><span style="color:red">赤文字</span> = 日本では未実装のものです。</li>
+                	<li><span style="color:red">赤文字</span> = 日本では未実装のものです。</li>
                     <li><span style="color:#9d00ff">紫文字</span> = 日本でも実装されていますが、今の所は建造不可のものです。これには例えばイベント限定やドロップ限定のものが含まれます。将来的には建造可能になります。</li>
                     <li>(?) = 正しいかどうか分からないものです。</li>
-                    <li>製作者: Aaeeschylus#6645 (discord)</li>
+                    <li>製作者: Aaeeschylus#6645 (discord) & hatsu#7450 (discord)</li>
                     <li>翻訳者: 辛味成分</li>
                     <li>もしリンクが変だったり、リンクされていない物があれば教えてください。</li>
                     <li><a href="main.html">英語バージョン</a></li>

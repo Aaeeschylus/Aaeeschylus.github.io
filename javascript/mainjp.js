@@ -4,108 +4,57 @@ $(document).on('click', '.calculate_button', function(){
 	var rations = $("#ration").val();
 	var parts = $("#part").val();
 	var value = $('input[name=production]:checked').val();
-	if(value == "heavy"){
+	if(value === "heavy"){
 		findHeavyDolls(manpower, ammo, rations, parts);
 	}else{
 		findDolls(manpower, ammo, rations, parts);
 	}
 });
 
-$(document).on('click', '.max', function(){
-	$("#manpower").val("999");
-	$("#ammo").val("999");
-	$("#ration").val("999");
-	$("#part").val("999");
-	findDolls(999, 999, 999, 999);
-});
+function init() {
+	$("tr.recipes").children("td:not(.preset)").each(
+		function (i, e) {
+			e.onclick = recipe_onclick;
+			$(e).hover(function() {
+					$(this).addClass("recipe_highlight");
+				    $(this).siblings("td").addClass("recipe_highlight");
+				}, function() {
+					$(this).removeClass("recipe_highlight");
+				    $(this).siblings("td").removeClass("recipe_highlight");
+				});
+		}
+	);
+	$(".resource_input > input").each(
+		function (i, e) {
+			$(e).change(update_tot);
+		});
+}
 
-$(document).on('click', '#maxHG', function(){
-	$("#manpower").val("230");
-	$("#ammo").val("230");
-	$("#ration").val("230");
-	$("#part").val("230");
-	findDolls(230, 230, 230, 230);
-});
+function recipe_onclick() {
+	var parent = $(this).parent();
+	var ingreds = parent.children("td").map(function (i, e) { return parseFloat(e.textContent); });
+	
+	select_ingreds(ingreds[0], ingreds[1], ingreds[2], ingreds[3]);
+}
 
-$(document).on('click', '#HG1', function(){
-	$("#manpower").val("30");
-	$("#ammo").val("30");
-	$("#ration").val("30");
-	$("#part").val("30");
-	findDolls(30, 30, 30, 30);
-});
+function update_tot() {
+	var tot = parseFloat($("#manpower").val()) + parseFloat($("#ammo").val()) + parseFloat($("#ration").val()) + parseFloat($("#part").val());
+	$("#resource_tot").text(tot);
+}
 
-$(document).on('click', '#HG2', function(){
-	$("#manpower").val("130");
-	$("#ammo").val("130");
-	$("#ration").val("130");
-	$("#part").val("30");
-	findDolls(130, 130, 130, 30);
-});
-
-$(document).on('click', '#SMG1', function(){
-	$("#manpower").val("30");
-	$("#ammo").val("30");
-	$("#ration").val("30");
-	$("#part").val("30");
-	findDolls(30, 30, 30, 30);
-});
-
-$(document).on('click', '#SMG2', function(){
-	$("#manpower").val("400");
-	$("#ammo").val("400");
-	$("#ration").val("30");
-	$("#part").val("30");
-	findDolls(400, 400, 30, 30);
-});
-
-$(document).on('click', '#AR1', function(){
-	$("#manpower").val("200");
-	$("#ammo").val("200");
-	$("#ration").val("200");
-	$("#part").val("200");
-	findDolls(200, 200, 200, 200);
-});
-
-$(document).on('click', '#AR2', function(){
-	$("#manpower").val("30");
-	$("#ammo").val("400");
-	$("#ration").val("400");
-	$("#part").val("30");
-	findDolls(30, 400, 400, 30);
-});
-
-$(document).on('click', '#RF1', function(){
-	$("#manpower").val("300");
-	$("#ammo").val("30");
-	$("#ration").val("300");
-	$("#part").val("30");
-	findDolls(300, 30, 300, 30);
-});
-
-$(document).on('click', '#RF2', function(){
-	$("#manpower").val("400");
-	$("#ammo").val("30");
-	$("#ration").val("400");
-	$("#part").val("30");
-	findDolls(400, 30, 400, 30);
-});
-
-$(document).on('click', '#MG1', function(){
-	$("#manpower").val("400");
-	$("#ammo").val("600");
-	$("#ration").val("30");
-	$("#part").val("300");
-	findDolls(400, 600, 30, 300);
-});
-
-$(document).on('click', '#MG2', function(){
-	$("#manpower").val("600");
-	$("#ammo").val("600");
-	$("#ration").val("100");
-	$("#part").val("400");
-	findDolls(600, 600, 100, 400);
-});
+function select_ingreds(m,a,r,p) {
+	$("#manpower").val(m);
+	$("#ammo").val(a);
+	$("#ration").val(r);
+	$("#part").val(p);
+	var value = $('input[name=production]:checked').val();
+	update_tot();
+	if(value === "heavy"){
+		findHeavyDolls(m, a, r, p);
+	}else{
+		findDolls(m, a, r, p);
+	}
+}
 
 
 function findDolls(mp, am, ra, pa){
