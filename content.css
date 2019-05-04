@@ -61,6 +61,7 @@ img {
 
 .selection_title {
 	height:20px;
+	width: 100%;
 	margin:0px 20px 5px 0px;
 	text-align:center;
 	font-weight:bold;
@@ -78,7 +79,7 @@ img {
 
 .sub_selection {
 	margin: 0 auto;
-	width: 315px;
+	/*width: 315px;*/
 	display: inline-block;
 	vertical-align: middle;
 	height: 50px;
@@ -203,6 +204,7 @@ th, td {
 	border-bottom: 1px solid #000;
 	border-right: 1px solid #000;
 	padding: 4px;
+	font-weight: normal;
 
 	vertical-align: top;
 }
@@ -226,7 +228,7 @@ table#heavy_rules_table th, table#heavy_rules_table td {
 	vertical-align: middle;
 }
 
-table#standard_rules_table th, table#heavy_rules_table th {
+table.rules_table > thead th {
 	color:#33a;
 	background-color: #f0f5ff;
 }
@@ -242,11 +244,11 @@ ul {
 	display: none;
 }
 
-#table_title {
+.table_title {
 	height: 30px;
-	background-color: rgb(221, 238, 255);
+	background-color: rgb(221, 238, 255) !important;
 	border-bottom: 1px solid rgb(51, 102, 153);
-	color: #06c;
+	color: #06c !important;
 }
 
 .S2 {
@@ -311,21 +313,7 @@ a.dolls:hover {
 	color: #000;
 }
 
-
-
-td#HG1:hover, td#HG2:hover,
-td#SMG1:hover, td#SMG2:hover,
-td#AR1:hover, td#AR2:hover,
-td#RF1:hover, td#RF2:hover,
-td#MG1:hover, td#MG2:hover,
-td#maxHG:hover, td.max:hover,
-
-td#HSG1:hover, td#HSG2:hover,
-td#HSMG1:hover, td#HSMG2:hover,
-td#HAR1:hover, td#HAR2:hover,
-td#HRF1:hover, td#HRF2:hover,
-td#HMG1:hover, td#HMG2:hover, 
-td.Hmax:hover {
+.recipe_highlight, .preset:hover {
 	background-color: rgb(221, 238, 255);
 	cursor: pointer;
 }

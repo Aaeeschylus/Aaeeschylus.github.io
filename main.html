@@ -22,7 +22,7 @@
         <script type="text/javascript" src="javascript/main.js"></script>
         <script type="text/javascript" src="javascript/heavy.js"></script>
     </head>
-    <body>
+        <body onload="init()">
         <div id="container">
             <div id="header">Recipe Calculator</div>
             <div id="content">
@@ -54,7 +54,11 @@
                                 <div class="resource">
                                     <div class="resource_label"><img src="assets/gf_part.png" title="Parts"></div>
                                     <div class="resource_input"><input id="part" value="30" type="number" name="resourceInput" min="30" max="999" step="10"></div>                                
-                                </div>   
+                                </div>
+                                <div class="resource">
+                                    <div class="resource_label"><img src="assets/sigma.png" title="Total"></div>
+                                    <div class="resource_input" id="resource_tot">120</div>                                
+                                </div>
                             </form>                        
                         </div>                      
                     </div>
@@ -94,137 +98,261 @@
         </div>  
 
         <div id="side_table">
-            <table id="standard_rules_table">
+            <table id="standard_rules_table" class="rules_table">
                 <thead>
                     <tr>
-                        <th colspan="4" id="table_title">Recipe Rules</th>
+                        <th colspan="7" class="table_title">Recipe Rules</th>
                     </tr>
                     <tr>
-                        <th style="width:15%">Class</th>
-                        <th style="width:10%">Set</th>
-                        <th style="width:37.5%">Minimum</th>
-                        <th style="width:37.5%">Maximum</th>
+                        <th rowspan="2" style="width:15%">Class</th>
+                        <th rowspan="2" style="width:10%">Set</th>
+                        <th colspan="4" style="width:37.5%">Minimum</th>
+                        <th rowspan="2" style="width:37.5%">Maximum</th>
+                    </tr>
+                    <tr>
+                       
+                        <th><img src="assets/gf_manpower.png" title="Manpower"></th>
+                        <th><img src="assets/gf_ammo.png" title="Ammo"></th>
+                        <th><img src="assets/gf_ration.png" title="Ration"></th>
+                        <th><img src="assets/gf_part.png" title="Parts"></th>    
+                                                
+
                     </tr>
                 </thead>
+                   
 
                 <tbody>
-                    <tr>
-                        <td rowspan="2">HG</td>
-                        <td>1</td>
-                        <td id="HG1">30 / 30 / 30 / 30</td>
-                        <td rowspan="2" id="maxHG">Sum of 920</td>
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">HG</th>
+                        <th>1</th>
+                        
+                        <td>30</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>30</td>
+                        
+                        <th rowspan="2" class="preset" onclick="select_ingreds(230,230,230,230)">Sum of 920</th>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="HG2">130 / 130 / 130 / 30</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>130</td>
+                        <td>130</td>
+                        <td>130</td>
+                        <td>30</td>
                     </tr>
-                    <tr>
-                        <td rowspan="2">SMG</td>
-                        <td>1</td>
-                        <td id="SMG1">30 / 30 / 30 / 30</td>
-                        <td rowspan="8" class="max">999 / 999 / 999 / 999</td>
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">SMG</th>
+                        <th>1</th>
+                        
+                        <td>30</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>30</td>
+                        
+                        <th rowspan="8" class="preset" onclick="select_ingreds(999,999,999,999)">999 / 999 / 999 / 999</th>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="SMG2">400 / 400 / 30 / 30</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>400</td>
+                        <td>400</td>
+                        <td>30</td>
+                        <td>30</td>
                     </tr>
-                    <tr>
-                        <td rowspan="2">AR</td>
-                        <td>1</td>
-                        <td id="AR1">Sum of 800</td>
+                    
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">AR</th>
+                        <th>1</th>
+                        
+                        <td colspan=4 class="preset" onclick="select_ingreds(200,200,200,200)">Sum of 800</td>
+                    </tr>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>30</td>
+                        <td>400</td>
+                        <td>400</td>
+                        <td>30</td>
+                    </tr>
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">RF</th>
+                        <th>1</th>
+                        
+                        <td>300</td>
+                        <td>30</td>
+                        <td>300</td>
+                        <td>30</td>
                         
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="AR2">30 / 400 / 400 / 30</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>400</td>
+                        <td>30</td>
+                        <td>400</td>
+                        <td>30</td>
                     </tr>
-                    <tr>
-                        <td rowspan="2">RF</td>
-                        <td>1</td>
-                        <td id="RF1">300 / 30 / 300 / 30</td>
+                                        
+                    <tr class="recipes">
+                        <th rowspan="2">MG</th>
+                        <th>1</th>
+                        
+                        <td>400</td>
+                        <td>600</td>
+                        <td>30</td>
+                        <td>300</td>
                         
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="RF2">400 / 30 / 400 / 30</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">MG</td>
-                        <td>1</td>
-                        <td id="MG1">400 / 600 / 30 / 300</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
                         
+                        <td>600</td>
+                        <td>600</td>
+                        <td>100</td>
+                        <td>400</td>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="MG2">600 / 600 / 100 / 400</td>
-                    </tr>
+                    
+                    
                 </tbody>
             </table>
-
-             <table id="heavy_rules_table">
+            
+            
+            <table id="heavy_rules_table" class="rules_table">
                 <thead>
                     <tr>
-                        <th colspan="4" id="table_title">Recipe Rules</th>
+                        <th colspan="7" class="table_title">Recipe Rules</th>
                     </tr>
                     <tr>
-                        <th style="width:15%">Class</th>
-                        <th style="width:10%">Set</th>
-                        <th style="width:37.5%">Minimum</th>
-                        <th style="width:37.5%">Maximum</th>
+                        <th rowspan="2" style="width:15%">Class</th>
+                        <th rowspan="2" style="width:10%">Set</th>
+                        <th colspan="4" style="width:37.5%">Minimum</th>
+                        <th rowspan="2" style="width:37.5%">Maximum</th>
+                    </tr>
+                    <tr>
+                       
+                        <th><img src="assets/gf_manpower.png" title="Manpower"></th>
+                        <th><img src="assets/gf_ammo.png" title="Ammo"></th>
+                        <th><img src="assets/gf_ration.png" title="Ration"></th>
+                        <th><img src="assets/gf_part.png" title="Parts"></th>    
+                                                
+
                     </tr>
                 </thead>
+                   
 
                 <tbody>
-                    <tr>
-                        <td rowspan="2">SMG</td>
-                        <td>1</td>
-                        <td id="HSMG1">1000 / 1000 / 1000 / 1000</td>
-                        <td rowspan="10" class="Hmax">9999 / 9999 / 9999 / 9999</td>
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">SMG</th>
+                        <th>1</th>
+                        
+                        <td>1000</td>
+                        <td>1000</td>
+                        <td>1000</td>
+                        <td>1000</td>
+                        
+                        <th rowspan="10" class="preset" onclick="select_ingreds(9999,9999,9999,9999)">9999 / 9999 / 9999 / 9999</th>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="HSMG2">4000 / 4000 / 1000 / 1000</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>4000</td>
+                        <td>4000</td>
+                        <td>1000</td>
+                        <td>1000</td>
                     </tr>
-                    <tr>
-                        <td rowspan="2">AR</td>
-                        <td>1</td>
-                        <td id="HAR1">1000 / 1000 / 1000 / 1000</td>
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">AR</th>
+                        <th>1</th>
+                        
+                        <td>1000</td>
+                        <td>1000</td>
+                        <td>1000</td>
+                        <td>1000</td>
+                        
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>1000</td>
+                        <td>4000</td>
+                        <td>4000</td>
+                        <td>1000</td>
+                    </tr>
+                    
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">RF</th>
+                        <th>1</th>
+                                                
+                        <td>3000</td>
+                        <td>1000</td>
+                        <td>3000</td>
+                        <td>1000</td>
+                    </tr>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>4000</td>
+                        <td>1000</td>
+                        <td>4000</td>
+                        <td>1000</td>
+                    </tr>
+                    
+                    <tr class="recipes">
+                        <th rowspan="2">MG</th>
+                        <th>1</th>
+                        
+                        <td>4000</td>
+                        <td>6000</td>
+                        <td>1000</td>
+                        <td>3000</td>
                         
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="HAR2">1000 / 4000 / 4000 / 1000</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
+                        
+                        <td>6000</td>
+                        <td>6000</td>
+                        <td>1000</td>
+                        <td>4000</td>
                     </tr>
-                    <tr>
-                        <td rowspan="2">RF</td>
-                        <td>1</td>
-                        <td id="HRF1">3000 / 1000 / 3000 / 1000</td>
+                                        
+                    <tr class="recipes">
+                        <th rowspan="2">SG</th>
+                        <th>1</th>
+                        
+                        <td>4000</td>
+                        <td>1000</td>
+                        <td>6000</td>
+                        <td>3000</td>
                         
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="HRF2">4000 / 1000 / 4000 / 1000</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">MG</td>
-                        <td>1</td>
-                        <td id="HMG1">4000 / 6000 / 1000 / 3000</td>
+
+                    <tr class="recipes">
+                        <th>2</th>
                         
+                        <td>6000</td>
+                        <td>1000</td>
+                        <td>6000</td>
+                        <td>4000</td>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="HMG2">6000 / 6000 / 1000 / 4000</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">SG</td>
-                        <td>1</td>
-                        <td id="HSG1">4000 / 1000 / 6000 / 3000</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td id="HSG2">6000 / 1000 / 6000 / 4000</td>
-                    </tr>
+                    
+                    
                 </tbody>
             </table>
 
@@ -235,8 +363,8 @@
                     <li><span style="color:red">Red text</span> = unreleased in EN.</li>
                     <li><span style="color:#9d00ff">Purple text</span> = released in EN however is currently uncraftable (eg. only event reward/drop) and will be craftable in the future.</li>
                     <li>(?) = unsure if correct set.</li>
-                    <li>Created by Aaeeschylus.</li>
-                    <li>Please report any errors, bugs or suggestions to Aaeeschylus#6645 on Discord.</li>
+                    <li>Created by Aaeeschylus & hatsu.</li>
+                    <li>Please report any errors, bugs or suggestions to Aaeeschylus#6645 or hatsu#7450 on Discord.</li>
                     <li><a href="mainjp.html">JP version</a></li>
                 </ul>
             </div>
