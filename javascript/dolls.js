@@ -34,7 +34,8 @@ var HG1 = [
 
 var HG2 = [
 		//4 star
-		[[["Spitfire"], ["0:52:00"], ["Spitfire"]],
+		[[["Jericho"], ["0:49:00"], ["Jericho"]],
+		 [["Spitfire"], ["0:52:00"], ["Spitfire"]],
 		 [["K5"], ["0:53:00"], ["K5"]], 
 		 [["Stechkin"], ["0:55:00"], ["Stechkin"]]],
 
@@ -129,13 +130,14 @@ var AR2 = [
 		 [["T91"], ["3:48:00"], ["T91"]], 
 		 [["Type 95"], ["3:50:00"], ["Type_95"]], 
 		 [["Type 97"], ["3:50:00"], ["Type_97"]], 
-		 [["<span class='unreleased'>K2</span>"], ["<span class='unreleased'>3:52:00</span>"], ["K2"]], 
+		 [["K2"], ["3:52:00"], ["K2"]], 
 		 [["MDR"], ["3:53:00"], ["MDR"]], 
 		 [["RFB"], ["3:58:00"], ["RFB"]], 
 		 [["G41"], ["4:05:00"], ["G41"]], 
 		 [["Zas M21"], ["4:05:00"], ["Zas_M21"]], 
-		 [["<span class='unreleased'>Howa Type 64 (?)</span>"], ["<span class='unreleased'>4:06:00</span>"], ["Howa_Type_64"]], 
-		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]], 
+		 [["Howa Type 64"], ["4:06:00"], ["Howa_Type_64"]], 
+		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]],
+		 [["K11"], ["4:11:00"], ["K11"]],  
 		 [["<span class='unreleased'>AK-12</span>"], ["<span class='unreleased'>4:12:00</span>"], ["AK-12"]]]];
 
 
@@ -168,7 +170,8 @@ var RF2 = [
 
 		//4 star
 		[[["T-5000"], ["4:10:00"], ["T-5000"]],
-		 [["SVD"], ["4:15:00"], ["SVD"]]],
+		 [["SVD"], ["4:15:00"], ["SVD"]],
+		 [["SPR A3G"], ["4:15:00"], ["SPR_A3G"]]],
 
 		//5 star
 		[[["M200"], ["4:32:00"], ["M200"]],
@@ -224,7 +227,7 @@ var MG2 = [
 var HSMG1 = [
 		//3 star
 		[[["Micro Uzi"], ["1:40:00"], ["Micro_Uzi"]], 
-		 [["<span class='unreleased'>F1</span>"], ["<span class='unreleased'>1:50:00</span>"], ["F1"]],
+		 [["<span class='uncraftable'>F1</span>"], ["<span class='uncraftable'>1:50:00</span>"], ["F1"]],
 		 [["MAC-10"], ["2:00:00"], ["MAC-10"]],
 		 [["Skorpion"], ["2:00:00"], ["Skorpion"]], 
 		 [["<span class='uncraftable'>Z-62</span>"], ["<span class='uncraftable'>2:05:00</span>"], ["Z-62"]], 
@@ -289,13 +292,14 @@ var HAR2 = [
 		 [["T91"], ["3:48:00"], ["T91"]], 
 		 [["Type 95"], ["3:50:00"], ["Type_95"]], 
 		 [["Type 97"], ["3:50:00"], ["Type_97"]], 
-		 [["<span class='unreleased'>K2</span>"], ["<span class='unreleased'>3:52:00</span>"], ["K2"]], 
+		 [["K2"], ["3:52:00"], ["K2"]], 
 		 [["MDR"], ["3:53:00"], ["MDR"]], 
 		 [["RFB"], ["3:58:00"], ["RFB"]], 
 		 [["G41"], ["4:05:00"], ["G41"]], 
 		 [["Zas M21"], ["4:05:00"], ["Zas_M21"]], 
-		 [["<span class='unreleased'>Howa Type 64 (?)</span>"], ["<span class='unreleased'>4:06:00</span>"], ["Howa_Type_64"]], 
-		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]], 
+		 [["Howa Type 64"], ["4:06:00"], ["Howa_Type_64"]], 
+		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]],
+		 [["K11"], ["4:11:00"], ["K11"]],   
 		 [["<span class='unreleased'>AK-12</span>"], ["<span class='unreleased'>4:12:00</span>"], ["AK-12"]]]];
 
 
@@ -322,8 +326,9 @@ var HRF2 = [
 		//4 star
 		[[["T-5000"], ["4:10:00"], ["T-5000"]],
 		 [["SVD"], ["4:15:00"], ["SVD"]],
+		 [["SPR A3G"], ["4:15:00"], ["SPR_A3G"]],
 		 [["<span class='uncraftable'>PSG-1 (?)</span>"], ["<span class='uncraftable'>4:20:00</span>"], ["PSG-1"]],
-		 [["<span class='unreleased'>PzB 39</span>"], ["<span class='unreleased'>4:30:00</span>"], ["PzB_39"]]],
+		 [["<span class='uncraftable'>PzB 39</span>"], ["<span class='uncraftable'>4:30:00</span>"], ["PzB_39"]]],
 
 		//5 star
 		[[["M200"], ["4:32:00"], ["M200"]],
