@@ -170,6 +170,7 @@ var RF2 = [
 
 		//4 star
 		[[["T-5000"], ["4:10:00"], ["T-5000"]],
+		 [["<span class='unreleased'>K31</span>"], ["<span class='unreleased'>4:15:00</span>"], ["K31"]],
 		 [["SVD"], ["4:15:00"], ["SVD"]],
 		 [["SPR A3G"], ["4:15:00"], ["SPR_A3G"]]],
 
@@ -325,6 +326,7 @@ var HRF2 = [
 
 		//4 star
 		[[["T-5000"], ["4:10:00"], ["T-5000"]],
+		 [["<span class='unreleased'>K31</span>"], ["<span class='unreleased'>4:15:00</span>"], ["K31"]],
 		 [["SVD"], ["4:15:00"], ["SVD"]],
 		 [["SPR A3G"], ["4:15:00"], ["SPR_A3G"]],
 		 [["<span class='uncraftable'>PSG-1 (?)</span>"], ["<span class='uncraftable'>4:20:00</span>"], ["PSG-1"]],
