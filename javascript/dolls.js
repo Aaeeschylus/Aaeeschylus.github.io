@@ -235,7 +235,7 @@ var HSMG1 = [
 		 [["<span class='uncraftable'>F1</span>"], ["<span class='uncraftable'>1:50:00</span>"], ["F1"]],
 		 [["MAC-10"], ["2:00:00"], ["MAC-10"]],
 		 [["Skorpion"], ["2:00:00"], ["Skorpion"]], 
-		 [["<span class='uncraftable'>Z-62</span>"], ["<span class='uncraftable'>2:05:00</span>"], ["Z-62"]], 
+		 [["Z-62"], ["2:05:00"], ["Z-62"]], 
 		 [["PPS-43"], ["2:10:00"], ["PPS-43"]]],
 
 		//4 star
