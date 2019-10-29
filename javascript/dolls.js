@@ -28,7 +28,7 @@ var HG1 = [
 		 [["P7"], ["0:55:00"], ["P7"]]],
 
 		//5 star
-		[[["<span class='uncraftable'>NZ75</span>"], ["<span class='uncraftable'>1:05:00</span>"], ["NZ75"]],
+		[[["NZ75"], ["1:05:00"], ["NZ75"]],
 		 [["Grizzly MkV"], ["1:10:00"], ["Grizzly_MkV"]]]];
 
 
