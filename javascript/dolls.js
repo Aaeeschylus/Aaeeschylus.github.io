@@ -139,9 +139,9 @@ var AR2 = [
 		 [["G41"], ["4:05:00"], ["G41"]], 
 		 [["Zas M21"], ["4:05:00"], ["Zas_M21"]], 
 		 [["Howa Type 64"], ["4:06:00"], ["Howa_Type_64"]], 
-		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]],
+		 [["AN-94"], ["4:09:00"], ["AN-94"]],
 		 [["K11"], ["4:11:00"], ["K11"]],  
-		 [["<span class='unreleased'>AK-12</span>"], ["<span class='unreleased'>4:12:00</span>"], ["AK-12"]]]];
+		 [["AK-12"], ["4:12:00"], ["AK-12"]]]];
 
 
 var RF1 = [
@@ -305,9 +305,9 @@ var HAR2 = [
 		 [["G41"], ["4:05:00"], ["G41"]], 
 		 [["Zas M21"], ["4:05:00"], ["Zas_M21"]], 
 		 [["Howa Type 64"], ["4:06:00"], ["Howa_Type_64"]], 
-		 [["<span class='unreleased'>AN-94</span>"], ["<span class='unreleased'>4:09:00</span>"], ["AN-94"]],
+		 [["AN-94"], ["4:09:00"], ["AN-94"]],
 		 [["K11"], ["4:11:00"], ["K11"]],   
-		 [["<span class='unreleased'>AK-12</span>"], ["<span class='unreleased'>4:12:00</span>"], ["AK-12"]]]];
+		 [["AK-12"], ["4:12:00"], ["AK-12"]]]];
 
 
 var HRF1 = [
