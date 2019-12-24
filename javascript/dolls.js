@@ -396,7 +396,7 @@ var HSG2 = [
 		//3 Star
 		[[["NS2000"], ["7:15:00"], ["NS2000"]],
 		 [["RMB-93"], ["7:30:00"], ["RMB-93"]], 
-		 [["<span class='unreleased'>M1897</span>"], ["<span class='unreleased'>7:30:00</span>"], ["M1897"]]],
+		 [["M1897"], ["7:30:00"], ["M1897"]]],
 
 		//4 Star
 		[
@@ -406,7 +406,7 @@ var HSG2 = [
 		 [["USAS-12"], ["7:55:00"], ["USAS-12"]]],
 
 		//5 Star
-		[[["<span class='unreleased'>Saiga-12</span>"], ["<span class='unreleased'>8:05:00</span>"], ["Saiga-12"]],
-		 [["<span class='unreleased'>FP-6</span>"], ["<span class='unreleased'>8:06:00</span>"], ["FP-6"]],
+		[[["Saiga-12"], ["8:05:00"], ["Saiga-12"]],
+		 [["FP-6"], ["8:06:00"], ["FP-6"]],
 		 [["S.A.T.8"], ["8:10:00"], ["S.A.T.8"]],
 		 [["AA-12"], ["8:12:00"], ["AA-12"]]]];
